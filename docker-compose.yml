@@ -1,0 +1,36 @@
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: neet
+      POSTGRES_PASSWORD: neet
+      POSTGRES_DB: neet
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U neet -d neet"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  app:
+    build: .
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql://neet:neet@db:5432/neet?schema=public
+      JWT_SECRET: ${JWT_SECRET:-dev-only-secret-change-me}
+      PORT: 4000
+      NODE_ENV: production
+      AI_PROVIDER: ${AI_PROVIDER:-anthropic}
+      AI_MODEL: ${AI_MODEL:-claude-sonnet-5}
+      AI_API_KEY: ${AI_API_KEY:-}
+    ports:
+      - "4000:4000"
+
+volumes:
+  pgdata:

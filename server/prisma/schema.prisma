@@ -1,0 +1,202 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ---------- Auth ----------
+
+model User {
+  id           String   @id @default(cuid())
+  username     String   @unique
+  passwordHash String
+  displayName  String
+  createdAt    DateTime @default(now())
+
+  refreshTokens RefreshToken[]
+  testAttempts  TestAttempt[]
+}
+
+// Rotating refresh tokens (hashed) so logout/revocation is real, not cosmetic.
+model RefreshToken {
+  id        String   @id @default(cuid())
+  userId    String
+  tokenHash String   @unique
+  expiresAt DateTime
+  revokedAt DateTime?
+  createdAt DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+}
+
+// ---------- Syllabus ----------
+
+model Subject {
+  id       String    @id @default(cuid())
+  name     String    @unique // Physics | Chemistry | Botany | Zoology
+  order    Int       @default(0)
+  chapters Chapter[]
+  questions Question[]
+}
+
+model Chapter {
+  id          String   @id @default(cuid())
+  subjectId   String
+  className   Int // 11 | 12
+  title       String
+  ntaIncluded Boolean  @default(true) // false = removed in NTA 2026 syllabus
+  order       Int      @default(0)
+  weighting   Float    @default(0) // derived from PYQ chapter-wise analysis
+  topics      String[]
+
+  subject        Subject               @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+  questions      QuestionChapter[]
+  contentAssets  ContentAssetChapter[]
+
+  @@unique([subjectId, className, title])
+  @@index([subjectId])
+}
+
+// ---------- Question bank ----------
+
+enum Difficulty {
+  easy
+  medium
+  hard
+}
+
+enum QuestionType {
+  mcq
+  assertion_reason
+  diagram
+  statement_match
+}
+
+model Question {
+  id              String       @id @default(cuid())
+  subjectId       String
+  stem            String // markdown + KaTeX
+  options         String[] // exactly 4, enforced by validators
+  correctIndex    Int
+  explanation     String
+  difficulty      Difficulty
+  type            QuestionType
+  isDiagram       Boolean      @default(false)
+  diagramSvg      String?
+  diagramImageRef String?
+  source          String // "pyq-2019" | "ai-generated" | "ncert-example" | ...
+  validated       Boolean      @default(false)
+  createdAt       DateTime     @default(now())
+
+  subject  Subject           @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+  chapters QuestionChapter[] // 2+ rows = combined-topic question
+
+  @@index([subjectId, difficulty, type])
+  @@index([validated])
+}
+
+model QuestionChapter {
+  questionId String
+  chapterId  String
+
+  question Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  chapter  Chapter  @relation(fields: [chapterId], references: [id], onDelete: Cascade)
+
+  @@id([questionId, chapterId])
+  @@index([chapterId])
+}
+
+// ---------- Generated content ----------
+
+enum ContentKind {
+  shortnote
+  flowchart
+  flashcard_deck
+}
+
+model ContentAsset {
+  id            String      @id @default(cuid())
+  kind          ContentKind
+  title         String
+  body          String // markdown | svg | node/edge JSON depending on kind
+  language      String      @default("en")
+  generatedFrom String? // provenance: source refs / prompt info
+  cacheKey      String?     @unique // task + chapter set + params + prompt version
+  version       Int         @default(1)
+  createdAt     DateTime    @default(now())
+
+  chapters   ContentAssetChapter[] // 2+ rows = combined-topic asset
+  flashcards Flashcard[]
+
+  @@index([kind])
+}
+
+model ContentAssetChapter {
+  assetId   String
+  chapterId String
+
+  asset   ContentAsset @relation(fields: [assetId], references: [id], onDelete: Cascade)
+  chapter Chapter      @relation(fields: [chapterId], references: [id], onDelete: Cascade)
+
+  @@id([assetId, chapterId])
+  @@index([chapterId])
+}
+
+model Flashcard {
+  id     String  @id @default(cuid())
+  deckId String
+  front  String
+  back   String
+  hint   String?
+  order  Int     @default(0)
+
+  deck ContentAsset @relation(fields: [deckId], references: [id], onDelete: Cascade)
+
+  @@index([deckId])
+}
+
+// ---------- Test engine ----------
+
+enum TestMode {
+  full_mock
+  custom
+}
+
+model TestTemplate {
+  id        String   @id @default(cuid())
+  name      String
+  mode      TestMode
+  config    Json // subjects, chapters, counts, difficulty mix, durationSec, marking
+  createdAt DateTime @default(now())
+
+  attempts TestAttempt[]
+}
+
+model TestAttempt {
+  id               String    @id @default(cuid())
+  userId           String
+  templateId       String
+  startedAt        DateTime  @default(now())
+  submittedAt      DateTime?
+  durationSec      Int
+  answers          Json // perQuestion: chosen, markedForReview, timeSpentSec
+  score            Int       @default(0)
+  correct          Int       @default(0)
+  wrong            Int       @default(0)
+  unattempted      Int       @default(0)
+  sectionBreakdown Json?
+
+  user     User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  template TestTemplate @relation(fields: [templateId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([templateId])
+}
+
+// LeaderboardEntry (§3) is derived from TestAttempt at query time (M7);
+// it becomes a materialized view if the friend group ever outgrows live aggregation.

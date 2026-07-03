@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+/* ------------------------------------------------------------------ */
+/* Design tokens (SPEC §8) — dark-first, editorial, one accent.        */
+/* ------------------------------------------------------------------ */
+@theme {
+  --color-bg: #0e1116;
+  --color-surface: #151a21;
+  --color-surface-raised: #1a2029;
+  --color-ink: #e6eaf0;
+  --color-muted: #8a94a6;
+  --color-hairline: #232a33;
+  --color-accent: #34d399; /* emerald — the one confident accent */
+  --color-accent-ink: #0b1512;
+  --color-data: #38bdf8; /* cerulean — data/highlights only */
+  --color-danger: #f87171;
+
+  --font-display: "Space Grotesk Variable", "Space Grotesk", sans-serif;
+  --font-sans: "Inter Variable", "Inter", sans-serif;
+  --font-mono: "JetBrains Mono Variable", "JetBrains Mono", monospace;
+
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+}
+
+html {
+  background-color: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--color-accent) 30%, transparent);
+}
+
+/* Purposeful micro-interactions; disabled for reduced-motion users. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
