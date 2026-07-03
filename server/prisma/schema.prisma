@@ -47,18 +47,19 @@ model Subject {
 model Chapter {
   id          String   @id @default(cuid())
   subjectId   String
-  className   Int // 11 | 12
+  className   Int? // 11 | 12 — nullable: the PYQ analysis doesn't state class
   title       String
   ntaIncluded Boolean  @default(true) // false = removed in NTA 2026 syllabus
   order       Int      @default(0)
-  weighting   Float    @default(0) // derived from PYQ chapter-wise analysis
+  weighting   Float    @default(0) // PYQ question count (chapter-wise analysis)
   topics      String[]
+  analysis    Json? // rich analysis: per-year counts, difficulty split, summary, insights
 
   subject        Subject               @relation(fields: [subjectId], references: [id], onDelete: Cascade)
   questions      QuestionChapter[]
   contentAssets  ContentAssetChapter[]
 
-  @@unique([subjectId, className, title])
+  @@unique([subjectId, title])
   @@index([subjectId])
 }
 

@@ -1,0 +1,18 @@
+{
+  "name": "ingestion",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "parse:analysis": "tsx src/parseAnalysis.ts",
+    "parse:pyq": "tsx src/parsePyq.ts",
+    "parse:all": "tsx src/parseAnalysis.ts && tsx src/parsePyq.ts"
+  },
+  "dependencies": {
+    "pdfjs-dist": "^4.10.38"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
