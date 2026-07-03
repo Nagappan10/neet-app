@@ -15,7 +15,7 @@ interface MeResponse {
 // Honest build status — updated as milestones land. No dead tabs, no stubs.
 const MODULES: { name: string; milestone: string; ready: boolean; to?: string }[] = [
   { name: "Syllabus & weighting", milestone: "M2", ready: true, to: "/syllabus" },
-  { name: "Question bank", milestone: "M4", ready: false },
+  { name: "Question bank (PYQ)", milestone: "M2", ready: true, to: "/bank" },
   { name: "Exam engine", milestone: "M5", ready: false },
   { name: "Shortnotes", milestone: "M6", ready: false },
   { name: "Flowcharts", milestone: "M6", ready: false },
@@ -110,8 +110,8 @@ export function DashboardPage(): JSX.Element {
           })}
         </ul>
         <p className="mt-3 text-xs leading-relaxed text-muted">
-          Auth, per-user persistence, and the syllabus matrix are live (M0–M2). Modules unlock here
-          as each milestone ships — nothing is shown until it actually works.
+          Auth, the syllabus matrix, and a verified past-year question bank are live (M0–M2).
+          Modules unlock here as each milestone ships — nothing is shown until it actually works.
         </p>
       </section>
     </div>

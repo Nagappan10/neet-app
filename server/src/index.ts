@@ -7,6 +7,7 @@ import { env, isProd } from "./env.js";
 import { authRouter } from "./routes/auth.js";
 import { meRouter } from "./routes/me.js";
 import { syllabusRouter } from "./routes/syllabus.js";
+import { questionsRouter } from "./routes/questions.js";
 import { errorHandler } from "./middleware/error.js";
 
 const app = express();
@@ -28,6 +29,7 @@ app.get("/api/health", (_req, res) => {
 app.use("/api/auth", authRouter);
 app.use("/api/me", meRouter);
 app.use("/api/syllabus", syllabusRouter);
+app.use("/api/questions", questionsRouter);
 
 // In production the built React app is served from the same process,
 // making this a single deployable full-stack app.

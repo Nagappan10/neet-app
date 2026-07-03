@@ -12,7 +12,8 @@
     "db:deploy": "prisma migrate deploy",
     "db:generate": "prisma generate",
     "db:seed": "dotenv -e ../.env -- tsx prisma/seed.ts",
-    "db:load-chapters": "dotenv -e ../.env -- tsx prisma/loadChapters.ts"
+    "db:load-chapters": "dotenv -e ../.env -- tsx prisma/loadChapters.ts",
+    "db:load-questions": "dotenv -e ../.env -- tsx prisma/loadQuestions.ts"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"

@@ -6,6 +6,7 @@ import { useAuthStore } from "../lib/authStore";
 const NAV: { to: string; label: string }[] = [
   { to: "/", label: "Overview" },
   { to: "/syllabus", label: "Syllabus" },
+  { to: "/bank", label: "Question bank" },
 ];
 
 export function AppShell({ children }: { children: ReactNode }): JSX.Element {

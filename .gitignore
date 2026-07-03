@@ -10,3 +10,5 @@ coverage/
 web/dist/
 server/dist/
 .postgres-data/
+ingestion/dump.mjs
+ingestion/survey.mjs

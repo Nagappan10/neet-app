@@ -1,0 +1,5634 @@
+[
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 1,
+    "subject": "Physics",
+    "stem": "Under isothermal condition, a gas at 300 K expands from 0.1L to 0.25L against a constant external pressure of 2 bar. The work done by the gas is:- [Given that 1L bar = 100 J]",
+    "options": [
+      "30 J",
+      "5kJ",
+      "25 J",
+      "30 J"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 2,
+    "subject": "Physics",
+    "stem": "A compound is formed by cation C and anion A. The anions form hexagonal close packed (hcp) lattice and the cations occupy 75% of octahedral voids. The formula of the compound is:-",
+    "options": [
+      "C 2 A 3",
+      "C 3 A 2",
+      "C 3 A 4",
+      "C 4 A 3"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 3,
+    "subject": "Physics",
+    "stem": "pH of a saturated solution of Ca(OH) 2 is 9. The solubility product (K sp ) of Ca(OH) 2 is:-",
+    "options": [
+      "0.5 × 10 15",
+      "0.25 × 10 10",
+      "0.125 × 10 15",
+      "0.5 × 10 10"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 4,
+    "subject": "Physics",
+    "stem": "The number of moles of hydrogen molecules required to produce 20 moles of ammonia through Haber's process is:-",
+    "options": [
+      "10",
+      "20",
+      "30",
+      "40"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 5,
+    "subject": "Physics",
+    "stem": "For an ideal solution, the correct option is:-",
+    "options": [
+      "D mix S = 0 at constant T and P",
+      "D mix V ¹ 0 at constant T and P",
+      "D mix H = 0 at constant T and P",
+      "D mix G = 0 at constant T and P"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 6,
+    "subject": "Physics",
+    "stem": "For a cell involving one electron E 1 cell = 0.59V at 298 K, the equilibrium constant for the cell reaction is:- é ù = = ê ú ë û 2.303RT Given that 0.059V at T 298K F",
+    "options": [
+      "1.0 × 10 2",
+      "1.0 × 10 5",
+      "1.0 × 10 10",
+      "1.0 × 10 30"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 7,
+    "subject": "Physics",
+    "stem": "Among the following, the one that is not a green house gas is:-",
+    "options": [
+      "nitrous oxide",
+      "methane",
+      "ozone",
+      "sulphur dioxide"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 8,
+    "subject": "Physics",
+    "stem": "The number of sigma ( s ) and pi ( p ) bonds in pent-2-en-4-yne is:-",
+    "options": [
+      "10 s bonds and 3 p bonds",
+      "8 s bonds and 5 p bonds",
+      "11 s bonds and 2 p bonds",
+      "13 s bonds and no p bond"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 9,
+    "subject": "Physics",
+    "stem": "Which of the following diatomic molecular species has only p bonds according to Molecular Orbital Theory ?",
+    "options": [
+      "O 2",
+      "N 2",
+      "C 2",
+      "Be 2"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 10,
+    "subject": "Physics",
+    "stem": "Wh ich of t he f ollo wing reactio ns are disproportionation reaction ? (a) 2Cu + ® Cu 2+ + Cu 0 (b) 3MnO 4 2 + 4H + ® 2MnO 4  + MnO 2 + 2H 2 O (c) 2KMnO 4 D ¾¾® K 2 MnO 4 + MnO 2 + O 2 (d) 2MnO 4  + 3Mn 2+ + 2H 2 O ® 5MnO 2 + 4H Å Select the correct option from the following:-",
+    "options": [
+      "(a) and (b) only",
+      "(a), (b) and (c)",
+      "(a), (c) and (d)",
+      "(a) and (d) only"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 11,
+    "subject": "Physics",
+    "stem": "Among the following, the narrow spectrum antibiotic is:-",
+    "options": [
+      "penicillin G",
+      "ampicillin",
+      "amoxycillin",
+      "chloramphenicol"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 12,
+    "subject": "Physics",
+    "stem": "The correct order of the basic strength of methyl substituted amines in aqueous solution is:-",
+    "options": [
+      "(CH 3 ) 2 NH > CH 3 NH 2 > (CH 3 ) 3 N",
+      "(CH 3 ) 3 N>CH 3 NH 2 > (CH 3 ) 2 NH",
+      "(CH 3 ) 3 N>(CH 3 ) 2 NH>CH 3 NH 2",
+      "CH 3 NH 2 >(CH 3 ) 2 NH > (CH 3 ) 3 N"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 14,
+    "subject": "Physics",
+    "stem": "Conjugate base for Bronsted acids H 2 O and HF are:-",
+    "options": [
+      "OH  and H 2 F + respectively",
+      "H 3 O + and F , respectively",
+      "OH  and F , respectively",
+      "H 3 O + and H 2 F +, respectively"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 15,
+    "subject": "Physics",
+    "stem": "Which will make basic buffer ?",
+    "options": [
+      "50 mL of 0.1 M NaOH + 25 mL of 0.1 M CH 3 COOH",
+      "100 mL of 0.1 M CH 3 COOH + 100 mL of 0.1M NaOH",
+      "100 mL of 0.1 M HCl + 200 mL of 0.1 M NH 4 OH",
+      "100 mL of 0.1 M HCl + 100 mL of 0.1 M NaOH"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 16,
+    "subject": "Physics",
+    "stem": "The compound that is most difficult to protonate is:-",
+    "options": [
+      "H O H",
+      "H C 3 O H",
+      "H C 3 O CH 3",
+      "Ph O H"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 17,
+    "subject": "Physics",
+    "stem": "The most suitable reagent for the following conversion is:- H CC CCH 3 3 º H C 3 H CH 3 H cis-2-butene",
+    "options": [
+      "Na/liquid NH 3",
+      "H 2, Pd/C, quinoline",
+      "Zn/HCl",
+      "Hg 2+ /H +, H 2 O"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 18,
+    "subject": "Physics",
+    "stem": "Which of the following species is not stable ?",
+    "options": [
+      "[SiF 6 ] 2",
+      "[GeCl 6 ] 2",
+      "[Sn(OH) 6 ] 2",
+      "[SiCl 6 ] 2"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 19,
+    "subject": "Physics",
+    "stem": "Which of the following is an amphoteric hydroxide?",
+    "options": [
+      "Sr(OH) 2",
+      "Ca(OH) 2",
+      "Mg(OH) 2",
+      "Be(OH) 2"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 20,
+    "subject": "Physics",
+    "stem": "The structure of intermediate A in the following reaction is:- O 2 CH CH 3 CH 3 A H + H O 2 OH + O H C 3 CH 3",
+    "options": [
+      "O CH CH 3 CH 3",
+      "H CCOOH 3 CH 3",
+      "OOCH CH 3 CH 3",
+      "HC CH OOH 2 CH 3"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 21,
+    "subject": "Physics",
+    "stem": "The manganate and permanganate ions are tetrahedral, due to",
+    "options": [
+      "The p bonding involves overlap of porbitals of oxygen with dorbitals of manganese",
+      "There is no p bonding",
+      "The p bonding involves overlap of porbitals of oxygen with porbitals of managanese",
+      "The p bonding involves overlap of dorbitals of oxygen with dorbitals of manganese"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 22,
+    "subject": "Physics",
+    "stem": "For the second period elements the correct increasing order of first ionisation enthalpy is:-",
+    "options": [
+      "Li < Be < B < C < N < O < F < Ne",
+      "Li < B < Be < C < O < N < F < Ne",
+      "Li < B < Be < C < N < O < F < Ne",
+      "Li < Be < B < C < O < N < F < Ne"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 23,
+    "subject": "Physics",
+    "stem": "If the rate constant for a first order reaction is k, the time (t) required for the completion of 99% of the reaction is given by:-",
+    "options": [
+      "t = 0.693/k",
+      "t = 6.909/k",
+      "t = 4.606/k",
+      "t = 2.303/k"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 24,
+    "subject": "Physics",
+    "stem": "Identify the incorrect statement related to PCl 5 from the following:-",
+    "options": [
+      "Three equatorial PCl bonds make an angle of 120° with each other",
+      "Two axial PCl bonds make an angle of 180° with each other",
+      "Axial PCl bonds are longer than equatorial PCl bonds",
+      "PCl 5 molecule is nonreactive"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 25,
+    "subject": "Physics",
+    "stem": "4d, 5p, 5f and 6p orbitals are arranged in the order of decreasing energy. The correct option is:-",
+    "options": [
+      "5f > 6p > 5p > 4d",
+      "6p > 5f > 5p > 4d",
+      "6p > 5f > 4d > 5p",
+      "5f > 6p > 4d > 5p"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 26,
+    "subject": "Physics",
+    "stem": "The biodegradable polymer is:-",
+    "options": [
+      "nylon6,6",
+      "nylon 2nylon 6",
+      "nylon6",
+      "BunaS"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 27,
+    "subject": "Physics",
+    "stem": "Match the Xenon compounds in ColumnI with its structure in ColumnII and assign the correct code:- ColumnI ColumnII (a) XeF 4 (i) pyramidal (b) XeF 6 (ii) square planar (c) XeOF 4 (iii) distorted octahedral (d) XeO 3 (iv) square pyramidal Code: (a) (b) (c) (d)",
+    "options": [
+      "(i) (ii) (iii) (iv)",
+      "(ii) (iii) (iv) (i)",
+      "(ii) (iii) (i) (iv)",
+      "(iii) (iv) (i) (ii)"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 28,
+    "subject": "Physics",
+    "stem": "Which is the correct thermal stability order for H 2 E (E=O, S, Se, Te and Po) ?",
+    "options": [
+      "H 2 S < H 2 O < H 2 Se < H 2 Te < H 2 Po",
+      "H 2 O < H 2 S < H 2 Se < H 2 Te < H 2 Po",
+      "H 2 Po < H 2 Te < H 2 Se < H 2 S < H 2 O",
+      "H 2 Se < H 2 Te < H 2 Po < H 2 O < H 2 S"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 29,
+    "subject": "Physics",
+    "stem": "The correct structure of tribromooctaoxide is:-",
+    "options": [
+      "O=BrBrBr=O O O O O O O",
+      "O=BrBrBrO  O O O O  O O ",
+      " OBrBrBr=O  O O O O  O  O ",
+      "O=BrBrBrO  O O O  O  O O"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 30,
+    "subject": "Physics",
+    "stem": "An alkene \"A\" on reaction with O 3 and ZnH 2 O gives propanone and ethanal in equimolar ratio. Addition of HCl to alkene \"A\" gives \"B\" as the major product. The structure of product \"B\" is:-",
+    "options": [
+      "ClCH CH CH 2 2 CH 3 CH 3",
+      "H CCH CHCH 3 2 3 CH Cl 2",
+      "H CCH CCH 3 2 3 CH 3 Cl",
+      "H CCHCH 3 CH 3 CH 3 Cl"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 31,
+    "subject": "Physics",
+    "stem": "Enzymes that utilize ATP in phosphate transfer require an alkaline earth metal (M) as the cofactor. M is:",
+    "options": [
+      "Be",
+      "Mg",
+      "Ca",
+      "Sr"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 32,
+    "subject": "Physics",
+    "stem": "Which one is malachite from the following ?",
+    "options": [
+      "CuFeS 2",
+      "Cu(OH) 2",
+      "Fe 3 O 4",
+      "CuCO 3.Cu(OH) 2"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 33,
+    "subject": "Physics",
+    "stem": "Which of the following series of transitions in the spectrum of hydrogen atom falls in visible region ?",
+    "options": [
+      "Lyman series",
+      "Balmer series",
+      "Paschen series",
+      "Brackett series"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 34,
+    "subject": "Physics",
+    "stem": "The mixture that forms maximum boiling azeotrope is:",
+    "options": [
+      "Water + Nitric acid",
+      "Ethanol + Water",
+      "Acetone + Carbon disulphide",
+      "Heptane + Octane"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 35,
+    "subject": "Physics",
+    "stem": "For the cell reaction 2Fe 3+ (aq) + 2I  (aq) ® 2Fe 2+ (aq) + I 2 (aq) = ! cell E 0.24V at 298 K. The standard Gibbs energy ( ) ° D ! r G of the cell reaction is: [Given that Faraday constant F = 96500 C mol 1 ]",
+    "options": [
+      " 46.32 kJ mol 1",
+      " 23.16 kJ mol 1",
+      "46.32 kJ mol 1",
+      "23.16 kJ mol 1"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 36,
+    "subject": "Physics",
+    "stem": "In which case change in entropy is negative ?",
+    "options": [
+      "Evaporation of water",
+      "Expansion of a gas at constant temperature",
+      "Sublimation of solid to gas",
+      "2H(g) ® H 2 (g)"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 37,
+    "subject": "Physics",
+    "stem": "Match the following: (a) Pure nitrogen (i) Chlorine (b) Haber process (ii) Sulphuric acid (c) Contact process (iii) Ammonia (d) Deacon's process (iv) Sodium azide or Barium azide Which of the following is the correct option ? (a) (b) (c) (d)",
+    "options": [
+      "(i) (ii) (iii) (iv)",
+      "(ii) (iv) (i) (iii)",
+      "(iii) (iv) (ii) (i)",
+      "(iv) (iii) (ii) (i)"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 38,
+    "subject": "Physics",
+    "stem": "Which of the following is incorrect statement ?",
+    "options": [
+      "PbF 4 is covalent in nature",
+      "SiCl 4 is easily hydrolysed",
+      "GeX 4 (X = F, Cl, Br, I) is more stable than GeX 2",
+      "SnF 4 is ionic in nature"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 39,
+    "subject": "Physics",
+    "stem": "The non-essential amino acid among the following is:",
+    "options": [
+      "valine",
+      "leucine",
+      "alanine",
+      "lysine"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 40,
+    "subject": "Physics",
+    "stem": "A gas at 350 K and 15 bar has molar volume 20 percent smaller than that for an ideal gas under the same conditions. The correct option about the gas and its compressibility factor (Z) is:",
+    "options": [
+      "Z > 1 and attractive forces are dominant",
+      "Z > 1 and repulsive forces are dominant",
+      "Z < 1 and attractive forces are dominant",
+      "Z < 1 and repulsive forces are dominant"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 41,
+    "subject": "Physics",
+    "stem": "Among the following, the reaction that proceeds through an electrophilic substitution is:",
+    "options": [
+      "N Cl 2 Cl + N 2 Cu Cl 2 2",
+      "Cl 2 + Cl + HCl AlCl 3",
+      "Cl 2 + Cl Cl Cl Cl Cl Cl UV light",
+      "CH OH + HCl 2 CH Cl + H O 2 2 heat"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 42,
+    "subject": "Physics",
+    "stem": "The major product of the following reaction is:",
+    "options": [
+      "COOH CONH 2",
+      "NH O O",
+      "NH 2 COOH",
+      "NH 2 NH 2"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 43,
+    "subject": "Physics",
+    "stem": "For the chemical reaction N 2 (g) + 3H 2 (g)  2NH 3 (g) the correct option is:",
+    "options": [
+      "é ù é ù ë û ë û - = - 2 3 d H d NH 1 1 3 dt 2 dt",
+      "é ù é ù ë û ë û - = 2 3 d N d NH 2 dt dt",
+      "é ù é ù ë û ë û - = 2 3 d N d NH 1 dt 2 dt",
+      "é ù é ù ë û ë û = 2 3 d H d NH 3 2 dt dt"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 44,
+    "subject": "Physics",
+    "stem": "What is the correct electronic configuration of the central atom in K 4 [Fe(CN) 6 ] based on crystal field theory ?",
+    "options": [
+      "4 2 2g g t e",
+      "6 0 2g g t e",
+      "3 3 2 e t",
+      "4 2 2 e t"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 45,
+    "subject": "Physics",
+    "stem": "The method used to remove temporary hardness of water is:",
+    "options": [
+      "Calgon's method",
+      "Clark's method",
+      "Ion-exchange method",
+      "Synthetic resins method"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 46,
+    "subject": "Chemistry",
+    "stem": "In which of the following processes, heat is neither absorbed nor released by a system ?",
+    "options": [
+      "isothermal",
+      "adiabatic",
+      "isobaric",
+      "isochoric"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 47,
+    "subject": "Chemistry",
+    "stem": "Increase in temperature of a gas filled in a container would lead to:",
+    "options": [
+      "increase in its mass",
+      "increase in its kinetic energy",
+      "decrease in its pressure",
+      "decrease in intermolecular distance"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 48,
+    "subject": "Chemistry",
+    "stem": "The total energy of an electron in an atom in an orbit is 3.4 eV. Its kinetic and potential energies are, respectively:",
+    "options": [
+      "3.4 eV, 3.4 eV",
+      "3.4 eV, 6.8 eV",
+      "3.4 eV, 6.8 eV",
+      "3.4 eV, 3.4 eV"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 49,
+    "subject": "Chemistry",
+    "stem": "R R +6V A 1 B 1 0 LED (Y) 0 The correct Boolean operation represented by the circuit diagram drawn is:",
+    "options": [
+      "AND",
+      "OR",
+      "NAND",
+      "NOR"
+    ],
+    "correctIndex": 2,
+    "isDiagram": true,
+    "clean": false
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 50,
+    "subject": "Chemistry",
+    "stem": "A block of mass 10 kg is in contact against the inner wall of a hollow cylindrical drum of radius 1 m. The coefficient of friction between the block and the inner wall of the cylinder is 0.1. The minimum angular velocity needed for the cylinder to keep the block stationary when the cylinder is vertical and rotating about its axis, will be: (g = 10 m/s 2 )",
+    "options": [
+      "10 rad/s",
+      "p 10 2 rad/s",
+      "10 rad/s",
+      "10 p rad/s"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 51,
+    "subject": "Chemistry",
+    "stem": "Body A of mass 4m moving with speed u collides with another body B of mass 2m, at rest. The collision is head on and elastic in nature. After the collision the fraction of energy lost by the colliding body A is:",
+    "options": [
+      "1 9",
+      "8 9",
+      "4 9",
+      "5 9"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 52,
+    "subject": "Chemistry",
+    "stem": "The speed of a swimmer in still water is 20 m/s. The speed of river water is 10 m/s and is flowing due east. If he is standing on the south bank and wishes to cross the river along the shortest path, the angle at which he should make his strokes w.r.t. north is given by:",
+    "options": [
+      "30° west",
+      "0°",
+      "60° west",
+      "45° west"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 53,
+    "subject": "Chemistry",
+    "stem": "A mass m is attached to a thin wire and whirled in a vertical circle. The wire is most likely to break when:",
+    "options": [
+      "the mass is at the highest point",
+      "the wire is horizontal",
+      "the mass is at the lowest point",
+      "inclined at an angle of 60° from vertical"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 54,
+    "subject": "Chemistry",
+    "stem": "The displacement of a particle executing simple harmonic motion is given by y = A 0 + Asin w t + Bcos w t. Then the amplitude of its oscillation is given by:",
+    "options": [
+      "+ + 2 2 0 A A B",
+      "+ 2 2 A B",
+      "+ + 2 2 0 A (A B)",
+      "A + B"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 55,
+    "subject": "Chemistry",
+    "stem": "A 800 turn coil of effective area 0.05 m 2 is kept perpendicular to a magnetic field 5 × 10 5 T. When the plane of the coil is rotated by 90° around any of its coplanar axis in 0.1 s, the emf induced in the coil will be:",
+    "options": [
+      "2 V",
+      "0.2 V",
+      "2 × 10 3 V",
+      "0.02 V"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 56,
+    "subject": "Chemistry",
+    "stem": "Average velocity of a particle executing SHM in one complete vibration is:",
+    "options": [
+      "w A 2",
+      "A w",
+      "w 2 A 2",
+      "Zero"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 57,
+    "subject": "Chemistry",
+    "stem": "A soap bubble, having radius of 1 mm, is blown from a detergent solution having a surface tension of 2.5 × 10 2 N/m. The pressure inside the bubble equals at a point Z 0 below the free surface of water in a container. Taking g = 10 m/s 2 density of water = 10 3 kg/m 3, the value of Z 0 is:-",
+    "options": [
+      "100 cm",
+      "10 cm",
+      "1 cm",
+      "0.5 cm"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 58,
+    "subject": "Chemistry",
+    "stem": "A copper rod of 88 cm and an aluminum rod of unknown length have their increase in length independent of increase in temperature. The length of aluminum rod is: ( a Cu = 1.7 × 10 5 K 1 and a Al = 2.2 × 10 5 K 1 )",
+    "options": [
+      "6.8 cm",
+      "113.9 cm",
+      "88 cm",
+      "68 cm"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 59,
+    "subject": "Chemistry",
+    "stem": "The unit of thermal conductivity is:",
+    "options": [
+      "J m K 1",
+      "J m 1 K 1",
+      "W m K 1",
+      "W m 1 K 1"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 60,
+    "subject": "Chemistry",
+    "stem": "When a block of mass M is suspended by a long wire of length L, the length of the wire become (L+ l ). The elastic potential energy stored in the extended wire is:-",
+    "options": [
+      "Mg l",
+      "MgL",
+      "1 2 Mg l",
+      "1 2 MgL"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 61,
+    "subject": "Chemistry",
+    "stem": "A disc of radius 2m and mass 100 kg rolls on a horizontal floor. Its centre of mass has speed of 20 cm/s. How much work is needed to stop it ?",
+    "options": [
+      "3J",
+      "30 kJ",
+      "2 J",
+      "1 J"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 62,
+    "subject": "Chemistry",
+    "stem": "In an experiment, the percentage of error occurred in the measurment of physical quantities A, B, C and D are 1%, 2%, 3% and 4% respectively. Then the maximum percentage of error in the measurement X, where = 2 1/2 1/3 3 A B X C D, will be:",
+    "options": [
+      "æ ö ç ÷ è ø 3 % 13",
+      "16%",
+      "10%",
+      "10%"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 63,
+    "subject": "Chemistry",
+    "stem": "A body weighs 200 N on the surface of the earth. How much will it weigh half way down to the centre of the earth ?",
+    "options": [
+      "150 N",
+      "200 N",
+      "250 N",
+      "100 N"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 64,
+    "subject": "Chemistry",
+    "stem": "Which colour of the light has the longest wavelength ?",
+    "options": [
+      "red",
+      "blue",
+      "green",
+      "violet"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 65,
+    "subject": "Chemistry",
+    "stem": "A solid cylinder of mass 2 kg and radius 4 cm is rotating about its axis at the rate of 3 rpm. The torque required to stop after 2 p revolutions is:",
+    "options": [
+      "2 × 10 6 N m",
+      "2 × 10 3 N m",
+      "12 × 10 4 N m",
+      "2 × 10 6 N m"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 66,
+    "subject": "Chemistry",
+    "stem": "The radius of circle the period of revolution initial position and sense of revolution are indicated in the fig. 3m x y P(t=0) T=4s y-projection of the radius vector of rotating particle P is:",
+    "options": [
+      "y(t) = 3cos2 p t, where y in m",
+      "p æ ö = ç ÷ è ø t y(t) 4 sin, 2 where y in m",
+      "p æ ö = ç ÷ è ø 3 t y(t) 3cos, 2 where y in m",
+      "p æ ö = ç ÷ è ø t y(t) 3 cos, 2 where y in m"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 67,
+    "subject": "Chemistry",
+    "stem": "A hollow metal sphere of radius R is uniformly charged. The electric field due to the sphere at a distance r from the centre:",
+    "options": [
+      "increases as r increases for r < R and for r > R",
+      "zero as r increases for r < R, decreases as r increases for r > R",
+      "zero as r increases for r < R, increases as r increases for r > R",
+      "decreases as r increases for r < R and for r > R"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 68,
+    "subject": "Chemistry",
+    "stem": "In which of the following devices, the eddy current effect is not used ?",
+    "options": [
+      "induction furnace",
+      "magnetic braking in train",
+      "electromagnet",
+      "electric heater"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 69,
+    "subject": "Chemistry",
+    "stem": "Six similar bulbs are connected as shown in the figure with a DC source of emf E, and zero internal resistance. The ratio of power consumption by the bulbs when (i) all are glowing and (ii) in the situation when two from section A and one from section B are glowing, will be: A B E",
+    "options": [
+      "4: 9",
+      "9: 4",
+      "1: 2",
+      "2: 1"
+    ],
+    "correctIndex": 1,
+    "isDiagram": true,
+    "clean": false
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 70,
+    "subject": "Chemistry",
+    "stem": "At a point A on the earth's surface the angle of dip, d = +25°. At a point B on the earth's surface the angle of dip, d = 25°. We can interpret that:",
+    "options": [
+      "A and B are both located in the northern hemisphere.",
+      "A is located in the southern hemisphere and B is located in the northern hemisphere.",
+      "A is located in the northern hemisphere and B is located in the southern hemisphere.",
+      "A and B are both located in the southern hemisphere"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 71,
+    "subject": "Chemistry",
+    "stem": "A force F = 20 + 10y acts on a particle in y-direction where F is in newton and y in meter. Work done by this force to move the particle from y = 0 to y = 1 m is:",
+    "options": [
+      "30 J",
+      "5 J",
+      "25 J",
+      "20 J"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 72,
+    "subject": "Chemistry",
+    "stem": "Pick the wrong answer in the context with rainbow.",
+    "options": [
+      "When the light rays undergo two internal reflections in a water drop, a secondary rainbow is formed.",
+      "The order of colours is reversed in the secondary rainbow.",
+      "An observer can see a rainbow when his front is towards the sun.",
+      "Rainbow is a combined effect of dispersion refraction and reflection sunlight."
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 73,
+    "subject": "Chemistry",
+    "stem": "A cylindrical conductor of radius R is carrying a constant current. The plot of the magnitude of the magnetic field, B with the distance d, from the centre of the conductor, is correctly represented by the figure:",
+    "options": [
+      "B R d",
+      "B R d",
+      "B R d",
+      "B R d"
+    ],
+    "correctIndex": 2,
+    "isDiagram": true,
+    "clean": false
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 74,
+    "subject": "Chemistry",
+    "stem": "Two particles A and B are moving in uniform circular motion in concentric circles of radius r A and r B with speed u A and u B respectively. The time period of rotation is the same. The ratio of angular speed of A to that of B will be:",
+    "options": [
+      "r A: r B",
+      "u A: u B",
+      "r B: r A",
+      "1: 1"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 75,
+    "subject": "Chemistry",
+    "stem": "Two similar thin equi-convex lenses, of focal length f each, are kept coaxially in contact with each other such that the focal length of the combination is F 1. When the space between the two lenses is filled with glycerin (which has the same refractive index (μ = 1.5) as that of glass) then the equivalent focal length is F 2. The ratio F 1: F 2 will be:",
+    "options": [
+      "2: 1",
+      "1: 2",
+      "2: 3",
+      "3: 4"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 76,
+    "subject": "Chemistry",
+    "stem": "In total internal reflection when the angle of incidence is equal to the critical angle for the pair of media in contact, what will be angle of refraction?",
+    "options": [
+      "180°",
+      "0°",
+      "equal to angle of incidence",
+      "90°"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 77,
+    "subject": "Chemistry",
+    "stem": "Two parallel infinite line charges with linear charge densities + l C/m and  l C/m are placed at a distance of 2R in free space. What is the electric field mid-way between the two line charges?",
+    "options": [
+      "zero",
+      "0 2 R l p Î N/C",
+      "0 R l p Î N/C",
+      "0 2 R l p Î N/C"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 78,
+    "subject": "Chemistry",
+    "stem": "For a p-type semiconductor which of the following statements is true ?",
+    "options": [
+      "Electrons are the majority carriers and trivalent atoms are the dopants.",
+      "Holes are the majority carriers and trivalent atoms are the dopants.",
+      "Holes are the majority carriers and pentavalent atoms are the dopants.",
+      "Electrons are the majority carriers and pentavalent atoms are the dopants."
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 79,
+    "subject": "Chemistry",
+    "stem": "Which of the following acts as a circuit protection device?",
+    "options": [
+      "conductor",
+      "inductor",
+      "switch",
+      "fuse"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 80,
+    "subject": "Chemistry",
+    "stem": "A parallel plate capacitor of capacitance 20 m F is being charged by a voltage source whose potential is changing at the rate of 3 V/s. The conduction current through the connecting wires, and the displacement current through the plates of the capacitor, would be, respectively:",
+    "options": [
+      "zero, 60 m A",
+      "60 m A, 60 m A",
+      "60 m A, zero",
+      "zero, zero"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 81,
+    "subject": "Chemistry",
+    "stem": "In the circuits shown below, the readings of the voltmeters and the ammeters will be: 10 V V 1 10 W A 1 10 V V 2 10 W A 2 10 W i 1 i 2 Circuit 1 Circuit 2",
+    "options": [
+      "V 2 > V 1 and i 1 = i 2",
+      "V 1 = V 2 and i 1 > i 2",
+      "V 1 = V 2 and i 1 = i 2",
+      "V 2 > V 1 and i 1 > i 2"
+    ],
+    "correctIndex": 2,
+    "isDiagram": true,
+    "clean": false
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 82,
+    "subject": "Chemistry",
+    "stem": "a -particle consists of:",
+    "options": [
+      "2 protons and 2 neutrons only",
+      "2 electrons, 2 protons and 2 neutrons",
+      "2 electrons and 4 protons only",
+      "2 protons only"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 83,
+    "subject": "Chemistry",
+    "stem": "An electron is accelerated through a potential difference of 10,000 V. Its de Broglie wavelength is, (nearly): (m e = 9 × 10 31 kg)",
+    "options": [
+      "12.2 × 10 13 m",
+      "12.2 × 10 12 m",
+      "12.2 × 10 14 m",
+      "12.2 nm"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 84,
+    "subject": "Chemistry",
+    "stem": "When an object is shot from the bottom of a long smooth inclined plane kept at an angle 60° with horizontal, it can travel a distance x 1 along the plane. But when the inclination is decreased to 30° and the same object the shot with the same velocity, it can travel x 2 distance. Then x 1: x 2 will be",
+    "options": [
+      "1: 2",
+      "2: 1",
+      "1: 3",
+      "1: 2 3"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 85,
+    "subject": "Chemistry",
+    "stem": "A small hole of area of cross-section 2 mm 2 is present near the bottom of a fully filled open tank of height 2 m. Taking g = 10 m/s 2, the rate of flow of water through the open hole would be nearly:",
+    "options": [
+      "12.6 × 10 6 m 3 /s",
+      "8.9 × 10 6 m 3 /s",
+      "2.23 × 10 6 m 3 /s",
+      "6.4 × 10 6 m 3 /s"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 86,
+    "subject": "Chemistry",
+    "stem": "Two point charges A and B, having charges +Q and Q respectively, are placed at certain distance apart and force acting between them is F. If 25% charge of A is transferred to B, then force between the charges becomes:",
+    "options": [
+      "F",
+      "9F 16",
+      "16F 9",
+      "4F 3"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 87,
+    "subject": "Chemistry",
+    "stem": "Ionized hydrogen atoms and a -particles with same momenta enters perpendicular to a constant magnetic field B. The ratio of their radii of their paths r H: r a will be",
+    "options": [
+      "2:1",
+      "1: 2",
+      "4: 1",
+      "1: 4"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 88,
+    "subject": "Chemistry",
+    "stem": "A particle moving with velocity V is acted by three forces shown by the vector triangle PQR. The velocity of the particle will: P R Q",
+    "options": [
+      "increase",
+      "decrease",
+      "remain constant",
+      "change according to the smallest force QR"
+    ],
+    "correctIndex": 2,
+    "isDiagram": true,
+    "clean": false
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 89,
+    "subject": "Chemistry",
+    "stem": "The work done to raise a mass m from the surface of the earth to a height h, which is equal to the radius of the earth, is:",
+    "options": [
+      "mgR",
+      "2 mgR",
+      "1 2 mgR",
+      "3 2 mgR"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 90,
+    "subject": "Chemistry",
+    "stem": "In a double slit experiment, when light of wavelength 400 nm was used, the angular width of the first minima formed on a screen placed 1m away, was found to be 0.2°. What will be the angular width of the first minima, if the entire experimental apparatus is immersed in water ( m water = 4/3)",
+    "options": [
+      "0.266°",
+      "0.15°",
+      "0.05°",
+      "0.1°"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 91,
+    "subject": "Botany",
+    "stem": "Which of the following statements is incorrect ?",
+    "options": [
+      "Viroids lack a protein coat",
+      "Viruses are obligate parasites",
+      "Infective constituent in viruses is the protein coat",
+      "Prions consist of abnormally folded proteins"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 92,
+    "subject": "Botany",
+    "stem": "Purines found both in DNA and RNA are:-",
+    "options": [
+      "Adenine and thymine",
+      "Adenine and guanine",
+      "Guanine and cytosine",
+      "Cytosine and thymine"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 93,
+    "subject": "Botany",
+    "stem": "Which of the following glucose transporters is insulin- dependent ?",
+    "options": [
+      "GLUT I",
+      "GLUT II",
+      "GLUT III",
+      "GLUT IV"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 94,
+    "subject": "Botany",
+    "stem": "Identify the cells whose secretion protects the lining of gastro-intestinal tract from various enzymes:-",
+    "options": [
+      "Chief Cells",
+      "Goblet Cells",
+      "Oxyntic Cells",
+      "Duodenal Cells"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 95,
+    "subject": "Botany",
+    "stem": "Which one of the following equipments is essentially required for growing microbes on a large scale, for industrial production of enzymes ?",
+    "options": [
+      "BOD incubator",
+      "Sludge digester",
+      "Industrial oven",
+      "Bioreactor"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 96,
+    "subject": "Botany",
+    "stem": "Which of the following in true for Golden rice ?",
+    "options": [
+      "It is Vitamin A enriched, with a gene from daffodil",
+      "It is pest resistant, with a gene from Bacillus thuringiensis",
+      "It is drought tolerant, developed using Agrobacterium vector",
+      "It has yellow grains, because of a gene introduced from a primitive variety of rice"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 97,
+    "subject": "Botany",
+    "stem": "Which one of the following is not a method of in situ conservation of biodiversity ?",
+    "options": [
+      "Biosphere Reserve",
+      "Wildlife Sanctuary",
+      "Botanical Garden",
+      "Sacred Grove"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 98,
+    "subject": "Botany",
+    "stem": "Under which of the following conditions will there be no change in the reading frame of following mRNA ? 5'",
+    "options": [
+      "Insertion of G at 5 th position",
+      "Deletion of G from 5 th position",
+      "Insertion of A at G at 4 th and 5 th positions respectively",
+      "Deletion of GGU from 7 th, 8 th and 9 th positions"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 99,
+    "subject": "Botany",
+    "stem": "Which of these following methods is the most suitable for disposal of nuclear waste ?",
+    "options": [
+      "Shoot the waste into space",
+      "Bury the waste under Antarctic ice-cover",
+      "Dump the waste within rocks under deep ocean",
+      "Burry the waste within rocks deep below the Earth's surface"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 100,
+    "subject": "Botany",
+    "stem": "Match the following organisms with the products they produce:- (a) Lactobacillus (i) Cheese (b) Saccharomyces (ii) Curd cerevisiae (c) Aspergillus niger (iii) Citric Acid (d) Acetobacter aceti (iv) Bread (v) Acetic Acid Select the correct option. (a) (b) (c) (d)",
+    "options": [
+      "ii iv v iii",
+      "ii iv iii v",
+      "iii iv v i",
+      "ii i iii v"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 101,
+    "subject": "Botany",
+    "stem": "What map unit (Centimorgan) is adopted in the construction of genetic maps ?",
+    "options": [
+      "A unit of distance between two expressed genes, representing 10% cross over",
+      "A unit of distance between two expressed genes, representing 100% cross over",
+      "A unit of dist ance between genes on chromosomes, representing 1% cross over",
+      "A unit of distance between genes on chromosomes, representing 50% cross over"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 102,
+    "subject": "Botany",
+    "stem": "Select the hormone-releasing Intra-Uterine Devices?",
+    "options": [
+      "Vaults, LNG-20",
+      "Multiload 375, Progestasert",
+      "Progestasert, LNG-20",
+      "Lippes Loop, Multiload 375"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 103,
+    "subject": "Botany",
+    "stem": "Which of the following can be used as a biocontrol agent in the treatment of plant disease ?",
+    "options": [
+      "Trichoderma",
+      "Chlorella",
+      "Anabaena",
+      "Lactobacillus"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 104,
+    "subject": "Botany",
+    "stem": "Expressed Sequence Tages (ESTs) refers to:-",
+    "options": [
+      "Genes expressed as RNA",
+      "Polypeptide expression",
+      "DNA polymorphism",
+      "Novel DNA sequences"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 105,
+    "subject": "Botany",
+    "stem": "Colostrum, the yellowish fluid, secreted by mother during the initial days of lactation is very essential to impart immunity to the newborn infants because it contains:-",
+    "options": [
+      "Natural killer cells",
+      "Monocytes",
+      "Macrophages",
+      "Immunoglobulin A"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 106,
+    "subject": "Botany",
+    "stem": "Select the incorrect statement:-",
+    "options": [
+      "Inbreeding increases homozygosity",
+      "Inbreeding is essential to evolve purelines in any animal",
+      "Inbreeding selects harmful recessive genes that reduce fertility and productivity",
+      "Inbreeding helps in accumulation of superior genes elimination of undesirable genes"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 107,
+    "subject": "Botany",
+    "stem": "Select the correct sequence of transport of sperm cells in male reproductive system:-",
+    "options": [
+      "Testis ® Epididymis ® Vasa efferentia ® Rete testis ® Inguinal canal ® Urethra",
+      "Seminiferous tubules ® Rete testis ® Vasa efferentia ® Epididymis ® Vas deferens ® Ejaculatory duct ® Urethra ® Urethral meatus",
+      "Seminiferous tubules ® Vasa efferentia ® Epididymis ® Inguinal canal ® Urethra",
+      "Testis ® Epididymis ® Vasa efferentia ® Vas deferens ® Ejaculatory duct ® Inguinal canal ® Urethra ® Urethral meatus"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 108,
+    "subject": "Botany",
+    "stem": "A gene locus has two alleles A, a. If the frequency of dominant allele A is 0.4 then what will be the frequency of homozygous dominant, heterozygous and homozygous recessive individuals in the population ?",
+    "options": [
+      "0.36 (AA); 0.48(Aa); 0.16 (aa)",
+      "0.16 (AA); 0.24 (Aa); 0.36 (aa)",
+      "0.16 (AA); 0.48 (Aa); 0.36 (aa)",
+      "0.16 (AA); 0.36 (Aa); 0.48 (aa)"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 109,
+    "subject": "Botany",
+    "stem": "Match the following organisms with their respective characteristics:- (a) Pila (i) Flame cells (b) Bombyx (ii) Comb plates (c) Pleurobrachia (iii) Radula (d) Taenia (iv) Malpighian tubules Select the correct option from the following (a) (b) (c) (d)",
+    "options": [
+      "(iii) (ii) (i) (iv)",
+      "(iii) (iv) (ii) (i)",
+      "(ii) (iv) (iii) (i)",
+      "(iiii) (ii) (iv) (i)"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 110,
+    "subject": "Botany",
+    "stem": "The shorter and longer arms of a submetacentric chromosome are referred to as:-",
+    "options": [
+      "s-arm and l-arm respectively",
+      "p-arm and q-arm respectively",
+      "q-arm and p-arm respectively",
+      "m-arm and n-arm respectively"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 111,
+    "subject": "Botany",
+    "stem": "What is the site of perception of photoperiod necessary for induction of flowering in plants:-",
+    "options": [
+      "Lateral buds",
+      "Pulvinus",
+      "Shoot apex",
+      "Leaves"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 112,
+    "subject": "Botany",
+    "stem": "Which part of the brain is responsible for thermoregulation ?",
+    "options": [
+      "Cerebrum",
+      "Hypothalamus",
+      "Corpus callosum",
+      "Medulla oblongata"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 113,
+    "subject": "Botany",
+    "stem": "Which of the following pair of organelles does not contain DNA:-",
+    "options": [
+      "Mitochondria and Lysosomes",
+      "Chloroplast and Vacuoles",
+      "Lysosomes and Vacuoles",
+      "Nuclear envelope and Mitochondria"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 114,
+    "subject": "Botany",
+    "stem": "What is the genetic disorder in which an individual has an overall masculine developmen t, gynaecomastia, and is sterile ?",
+    "options": [
+      "Turner's syndrome",
+      "Klinefelter's syndrome",
+      "Edward syndrome",
+      "Down's syndrome"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 115,
+    "subject": "Botany",
+    "stem": "Xylem translocates:-",
+    "options": [
+      "Water only",
+      "Water and mineral salts only",
+      "Water, mineral salts and some organic nitrogen only",
+      "Water, mineral salts, some organic nitrogen and hormones"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 116,
+    "subject": "Botany",
+    "stem": "Which of the following pairs of gases is mainly responsible for green house effect?",
+    "options": [
+      "Ozone and Ammonia",
+      "Oxygen and Nitrogen",
+      "Nitrogen and Sulphur dioxide",
+      "Carbon dioxide and Methane"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 117,
+    "subject": "Botany",
+    "stem": "Which of the following protocols did aim for reducing emission of chloroflurocarbons into the atmosphere?",
+    "options": [
+      "Montreal protocol",
+      "Kyoto protocol",
+      "Gothenburg Protocol",
+      "Geneva Protocol"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 118,
+    "subject": "Botany",
+    "stem": "Is some plants, the female gamete develops into embryo without fertilization. This phenomenon is known as:",
+    "options": [
+      "Autogamy",
+      "Parthenocarpy",
+      "Syngamy",
+      "Parthenogenesis"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 119,
+    "subject": "Botany",
+    "stem": "Which of the following sexually transmitted diseases is not completely curable ?",
+    "options": [
+      "Gonorrhoea",
+      "Genital warts",
+      "Genital herpes",
+      "Chlamydiasis"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 120,
+    "subject": "Botany",
+    "stem": "Which of the following immune responses is responsible for rejection of kidney graft?",
+    "options": [
+      "Auto- immune respones",
+      "Humoral immune response",
+      "Inflammatory immune response",
+      "Cell-mediated immune response"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 121,
+    "subject": "Botany",
+    "stem": "Which of the following factors is responsible for the formation of concentrated urine?",
+    "options": [
+      "Low levels of antidiuretic hormone.",
+      "Maintaining hyperosmolarity towards inner medullary interstitium in the kidneys.",
+      "Secretion of erythropoietin by juxtaglomerular complex.",
+      "Hydrostatic pressure during glomerular filtration."
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 122,
+    "subject": "Botany",
+    "stem": "Which of the following features of genetic code does allow bacteria to produce human insulin by recombinant DNA technology?",
+    "options": [
+      "Genetic code is not ambiguous",
+      "Genetic code is redundant",
+      "Genetic code is nearly universal",
+      "Genetic code is specific"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 123,
+    "subject": "Botany",
+    "stem": "Which of the following statements is not correct?",
+    "options": [
+      "Lysosomes have numerous hydrolytic enzymes.",
+      "The hydrolytic enzymes of lysosomes are active under acidic pH.",
+      "Lysosomes are membrane bound structures.",
+      "Lysosomes are formed by the process of packaging in the endoplasmic reticulum."
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 124,
+    "subject": "Botany",
+    "stem": "The concept of \" Omnis cellula-e cellula\" regarding cell division was first proposed by:",
+    "options": [
+      "Rudolf Virchow",
+      "Theodore Schwann",
+      "Schleiden",
+      "Aristotle"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 125,
+    "subject": "Botany",
+    "stem": "Use of an artificial kidney during hemodialysis may result in: (a) Nitrogenous waste build-up in the body (b) Non-elimination of excess potassium ions (c) Reduced absorption of calcium ions from gastro- intestinal tract (d) Reduced RBC production Which of the following options is the most appropiate ?",
+    "options": [
+      "(a) and (b) are correct",
+      "(b) and (c) are correct",
+      "(c) and (d) are correct",
+      "(a) and (d) are correct"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 126,
+    "subject": "Botany",
+    "stem": "What is the direction of movement of sugars in phloem?",
+    "options": [
+      "Non-multidirectional",
+      "Upward",
+      "Downward",
+      "Bi-directional"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 127,
+    "subject": "Botany",
+    "stem": "Which of the following muscular disorders is inherited ?",
+    "options": [
+      "Tetany",
+      "Muscular dystrophy",
+      "Myasthenia gravis",
+      "Botulism"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 128,
+    "subject": "Botany",
+    "stem": "Consider following features: (a) Organ system level of organisation (b) Bilateral symmetry (c) True coelomates with segmentation of body Select the correct option of animal groups which possess all the above characteristics.",
+    "options": [
+      "Annelida, Arthropoda and Chordata",
+      "Annelida, Arthropoda and Mollusca",
+      "Arthropoda, Mollusca and Chordata",
+      "Annelida, Mollusca and Chordata"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 129,
+    "subject": "Botany",
+    "stem": "The frequency of recombination between gene pairs on the same chromosome as a measure of the distance between genes was explained by:",
+    "options": [
+      "T.H. Morgan",
+      "Gregor J. Mendel",
+      "Alfred Sturtevant",
+      "Sutton Boveri"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 130,
+    "subject": "Botany",
+    "stem": "Following statements describe the characteristics of the enzyme Restriction endonuclease. Identify the incorrect statement.",
+    "options": [
+      "The enzyme cuts DNA molecule at identified position within the DNA",
+      "The enzyme binds DNA at specific sites and cuts only one of the two strands.",
+      "The enzyme cuts the sugar-phosphate backbone at specific sites on each strand.",
+      "The enzyme recognizes a specific palindromic nucleotide sequence in the DNA"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 131,
+    "subject": "Botany",
+    "stem": "Which of the following statements is incorrect ?",
+    "options": [
+      "Morels and truffles are edible delicacies.",
+      "Claviceps is a source of many alkaloids and LSD.",
+      "Conidia are produced exogenously and ascospores endogenously.",
+      "Yeasts have filamentous bodies with long thread- like hyphae."
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 132,
+    "subject": "Botany",
+    "stem": "Placentation, in which ovules develop on the inner wall of the ovary or in peripheral part, is:",
+    "options": [
+      "Basal",
+      "Axile",
+      "Parietal",
+      "Free central"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 133,
+    "subject": "Botany",
+    "stem": "Which of the following is the most important causes for animals and plants being driven to extinction?",
+    "options": [
+      "Habitat loss and fragmentation",
+      "Drought and floods",
+      "Economic exploitation",
+      "Alien species invasion"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 134,
+    "subject": "Botany",
+    "stem": "Variations caused by mutation, as proposed by Hugo de Vries, are",
+    "options": [
+      "random and directional",
+      "random and directionless",
+      "small and directional",
+      "small and directionless"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 135,
+    "subject": "Botany",
+    "stem": "Respiratiory Quotient (RQ) value of tripalmitin is:",
+    "options": [
+      "0.9",
+      "0.7",
+      "0.07",
+      "0.09"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 136,
+    "subject": "Zoology",
+    "stem": "In Antirrhinum (Snapdragon), a red flower was crossed with a white flower and in F 1 generation, pink flowers were obtained. When pink flowers were selfed, the F 2 generation showed white, red and pink flowers. Choose the incorrect statement from the following:",
+    "options": [
+      "This experiment does not follow the Principle of Dominance",
+      "Pink colour in F 1 is due to incomplete dominance.",
+      "Ratio of F 2 is 1 4 (Red): 2 4 (Pink): 1 4 (White)",
+      "Law of Segregation does not apply in this experiment."
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 137,
+    "subject": "Zoology",
+    "stem": "Select the incorrect statement.",
+    "options": [
+      "Male fruit fly is heterogametic.",
+      "In male grasshoppers, 50% of sperms have no sex-chromosome.",
+      "In domesticated fowls sex of progeny depends on the type of sperm rather than egg.",
+      "Human males have one of their sex-chromosome much shorter than the other."
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 138,
+    "subject": "Zoology",
+    "stem": "The correct sequence of phases of cell cycle is:",
+    "options": [
+      "M ® G 1 ® G 2 ® S",
+      "G 1 ® G 2 ® S ® M",
+      "S ® G 1 ® G 2 ® M",
+      "G 1 ® S ® G 2 ® M"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 139,
+    "subject": "Zoology",
+    "stem": "Thiobacillus is a group of bacteria helpful in carrying out:",
+    "options": [
+      "Nitrogen fixation",
+      "Chemoautotrophic fixation",
+      "Nitrification",
+      "Denitrification"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 140,
+    "subject": "Zoology",
+    "stem": "Polyblend, a fine powder of recycled modified plastic, has proved to be a good material for:",
+    "options": [
+      "making plastic sacks",
+      "use as a fertilizer",
+      "construction of roads",
+      "making tubes and pipes"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 141,
+    "subject": "Zoology",
+    "stem": "From evolutionary point of view, retention of the female gametophyte with developing young embryo on the parent sporophyte for some time, is first observed in:",
+    "options": [
+      "Liverworts",
+      "Mosses",
+      "Pteridophytes",
+      "Gymnosperms"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 142,
+    "subject": "Zoology",
+    "stem": "Select the correct option.",
+    "options": [
+      "8 th, 9 th and 10 th pairs of ribs articulate directly with the sternum.",
+      "11 th and 12 th pairs of ribs are connected to the sternum with the help of hyaline cartilage.",
+      "Each rib is a flat thin bone and all the ribs are connected dorsally to the thoracic vertebrae and ventrally to the sternum.",
+      "There are seven pairs of vertebrosternal, three pairs of vertebrochondral and two pairs of vertebral ribs."
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 143,
+    "subject": "Zoology",
+    "stem": "Concanavalin A is:",
+    "options": [
+      "an alkaloid",
+      "an essential oil",
+      "a lectin",
+      "a pigment"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 144,
+    "subject": "Zoology",
+    "stem": "Extrusion of second polar body from egg nucleus occurs:",
+    "options": [
+      "after entry of sperm but before fertilization",
+      "after fertilization",
+      "before entry of sperm into ovum",
+      "simultaneously with first cleavage"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 145,
+    "subject": "Zoology",
+    "stem": "Pinus seed cannot germinate and establish without fungal association. This is because:",
+    "options": [
+      "its embryo is immature",
+      "it has obligate association with mycorrhizae.",
+      "it has very hard seed coat.",
+      "its seeds contain inhibitors that prevent germination."
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 146,
+    "subject": "Zoology",
+    "stem": "The Earth Summit held in Rio de Janeiro in 1992 was called:",
+    "options": [
+      "to reduce CO 2 emissions and global warming.",
+      "for conservation of biodiversity and sustainable utilization of its benefits.",
+      "to assess threat posed to native species by invasive weed species.",
+      "for immediate steps to discontinue use of CFCs that were damaging the ozone layer."
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 147,
+    "subject": "Zoology",
+    "stem": "DNA precipitation out of a mixture of biomolecules can be achieved by treatment with:",
+    "options": [
+      "Isopropanol",
+      "Chilled ethanol",
+      "Methanol at room temperature",
+      "Chilled chloroform"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 148,
+    "subject": "Zoology",
+    "stem": "Grass leaves curl inwards during very dry weather. Select the most appropriate reason from the following:",
+    "options": [
+      "Closure of stomata",
+      "Flaccidity of bulliform cells",
+      "Shrinkage of air spaces in spongy mesophyll",
+      "Tyloses in vessels"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 149,
+    "subject": "Zoology",
+    "stem": "Match the following structures with their respective location in organs: (a) Crypts of Lieberkuhn (i) Pancreas (b) Glisson's Capsule (ii) Duodenum (c) Islets of Langerhans (iii) Small intestine (d) Brunner's Glands (iv) Liver Select the correct option from the following: (a) (b) (c) (d)",
+    "options": [
+      "(iii) (i) (ii) (iv)",
+      "(ii) (iv) (i) (iii)",
+      "(iii) (iv) (i) (ii)",
+      "(iii) (ii) (i) (iv)"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 150,
+    "subject": "Zoology",
+    "stem": "Match the following hormones with the respective disease: (a) Insulin (i) Addison's disease (b) Thyroxin (ii) Diabetes insipidus (c) Corticoids (iii) Arcomegaly (d) Growth Hormone (iv) Goitre (v) Diabetes mellitus Select the correct option. (a) (b) (c) (d)",
+    "options": [
+      "(v) (i) (ii) (iii)",
+      "(ii) (iv) (iii) (i)",
+      "(v) (iv) (i) (iii)",
+      "(ii) (iv) (i) (iii)"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 151,
+    "subject": "Zoology",
+    "stem": "Which of the following contraceptive methods do involve a role of hormone ?",
+    "options": [
+      "Lactational amenorrhea, Pills, Emergency contraceptives",
+      "Barrier method, Lactational amenorrhea, Pills",
+      "CuT, Pills, Emergency contraceptives",
+      "Pills, Emergency contraceptives, Barrier methods"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 152,
+    "subject": "Zoology",
+    "stem": "Drug called 'Heroin' is synthesized by:",
+    "options": [
+      "methylation of morphine",
+      "acetylation of morphine",
+      "glycosylation of morphine",
+      "nitration of morphine"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 153,
+    "subject": "Zoology",
+    "stem": "In a species, the weight of newborn ranges from 2 to 5 kg. 97% of the newborn with an average weight between 3 to 3.3kg survive whereas 99% of the infants born with weights from 2 to 2.5 kg or 4.5 to 5 kg die. Which type of selection process is taking place ?",
+    "options": [
+      "Directional Selection",
+      "Stabilizing Selection",
+      "Disruptive Selection",
+      "Cyclical Selection"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 154,
+    "subject": "Zoology",
+    "stem": "Conversion of glucose to glucose-6-phosphate, the first irreversible reaction of glycolysis, is catalyzed by:",
+    "options": [
+      "Aldolase",
+      "Hexokinase",
+      "Enolase",
+      "Phosphofructokinase"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 155,
+    "subject": "Zoology",
+    "stem": "Which of the following statements is correct ?",
+    "options": [
+      "Cornea is an external, transparent and protective proteinacious covering of the eye-ball.",
+      "Cornea consists of dense connective tissue of elastin and can repair itself.",
+      "Cornea is convex, transparent layer which is highly vascularised.",
+      "Cornea consists of dense matrix of collagen and is the most sensitive portion of the eye."
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 156,
+    "subject": "Zoology",
+    "stem": "Which of the following ecological pyramids is generally inverted ?",
+    "options": [
+      "Pyramid of numbers in grassland",
+      "Pyramid of energy",
+      "Pyramid of biomass in a forest",
+      "Pyramid of biomass in a sea"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 157,
+    "subject": "Zoology",
+    "stem": "Consider the following statements: (A) Coenzyme or metal ion that is tightly bound to enzyme protein is called prosthetic group. (B) A complete catalytic active enzyme with its bound prosthetic group is called apoenzyme. Select the correct option.",
+    "options": [
+      "Both (A) and (B) are true.",
+      "(A) is true and (B) is false.",
+      "Both (A) and (B) are false.",
+      "(A) is false and (B) is true."
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 158,
+    "subject": "Zoology",
+    "stem": "Due to increasing air-borne allergens and pollutants, many people in urban areas are suffering from respiratory disorder causing wheezing due to:",
+    "options": [
+      "benign growth on mucous lining of nasal cavity.",
+      "inflammation of bronchi and bronchioles.",
+      "proliferation of fibrous tissues and damage of the alveolar walls.",
+      "reduction in the secretion of surfactants by pneumocytes."
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 159,
+    "subject": "Zoology",
+    "stem": "Which one of the following statements regarding post-fertilization development in flowering plants is incorrect ?",
+    "options": [
+      "Ovary develops into fruit",
+      "Zygote develops into embryo",
+      "Central cell develops into endosperm",
+      "Ovules develop into embryo sac"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 160,
+    "subject": "Zoology",
+    "stem": "Phloem in gymnosperms lacks:",
+    "options": [
+      "Albuminous cells and sieve cells",
+      "Sieve tubes only",
+      "Companion cells only",
+      "Both sieve tubes and companion cells"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 161,
+    "subject": "Zoology",
+    "stem": "It takes very long time for pineapple plants to produce flowers. Which combination of hormones can be applied to artificially induce flowering in pineapple plants throughout the year to increase yield?",
+    "options": [
+      "Auxin and Ethylene",
+      "Gibberellin and Cytokinin",
+      "Gibberellin and Abscisic acid",
+      "Cytokinin and Abscisic acid"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 162,
+    "subject": "Zoology",
+    "stem": "Persistent nucellus in the seed is known as:",
+    "options": [
+      "Chalaza",
+      "Perisperm",
+      "Hilum",
+      "Tegmen"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 163,
+    "subject": "Zoology",
+    "stem": "Cells in G 0 phase:",
+    "options": [
+      "exit the cell cycle",
+      "enter the cell cycle",
+      "suspend the cell cycle",
+      "terminate the cell cycle"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 164,
+    "subject": "Zoology",
+    "stem": "Match Column - I with Column - II. Column - I Column - II (a) Saprophyte (i) Symbiotic association of fungi with plant roots (b) Parasite (ii) Decomposition of dead organic materials (c) Lichens (iii) Living on living plants or animals (d) Mycorrhiza (iv) Symbiotic association of algae and fungi Choose the correct answer from the options given below: (a) (b) (c) (d)",
+    "options": [
+      "(i) (ii) (iii) (iv)",
+      "(iii) (ii) (i) (iv)",
+      "(ii) (i) (iii) (iv)",
+      "(ii) (iii) (iv) (i)"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 165,
+    "subject": "Zoology",
+    "stem": "Which would be the heart rate of a person if the cardiac output is 5L, blood volume in the ventricles at the end of diastole is 100 mL and at the end of ventricular systole is 50 mL?",
+    "options": [
+      "50 beats per minute",
+      "75 beats per minute",
+      "100 beats per minute",
+      "125 beats per minute"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 166,
+    "subject": "Zoology",
+    "stem": "What triggers activation of protoxin to active Bt toxin of Bacillus thuringiensis in boll worm?",
+    "options": [
+      "Body temperature",
+      "Moist surface of midgut",
+      "Alkaline pH of gut",
+      "Acidic pH of stomach"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 167,
+    "subject": "Zoology",
+    "stem": "The ciliated epithelial cells are required to move particles or mucus in a specific direction. In humans, these cells are mainly present in:",
+    "options": [
+      "Bile duct and Bronchioles",
+      "Fallopian tubes and Pancreatic duct",
+      "Eustachian tube and Salivary duct",
+      "Bronchioles and Fallopian tubes"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 168,
+    "subject": "Zoology",
+    "stem": "Which of the statements given below is not true about formation of Annual Rings in trees?",
+    "options": [
+      "Annual ring is a combination of spring wood and autumn wood produced in a year.",
+      "Differential activity of cambium causes light and dark bands of tissue - early and late wood respectively",
+      "Activity of cambium depends upon variation in climate.",
+      "Annual rings are not prominent in trees of temperate region."
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 169,
+    "subject": "Zoology",
+    "stem": "What is the fate of the male gametes discharged in the synergid?",
+    "options": [
+      "One fuses with the egg, other(s) degenerate(s) in the synergid.",
+      "All fuse with the egg.",
+      "One fuses with the egg, other(s) fuse(s) with synergid nucleus.",
+      "One fuses with the egg and other fuses with central cell nuclei."
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 170,
+    "subject": "Zoology",
+    "stem": "Match the following genes of the Lac operon with their respective products. (a) i gene (i) b -galactosidase (b) z gene (ii) Permease (c) a gene (iii) Repressor (d) y gene (iv) Transacetylase Select the correct option. (a) (b) (c) (d)",
+    "options": [
+      "(i) (iii) (ii) (iv)",
+      "(iii) (i) (ii) (iv)",
+      "(iii) (i) (iv) (ii)",
+      "(iii) (iv) (i) (ii)"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 171,
+    "subject": "Zoology",
+    "stem": "Select the correct sequence of organs in the alimentary canal of cockroach starting from mouth:",
+    "options": [
+      "Pharynx ® Oesophagus ® Crop ® Gizzard ® Ileum ® Colon ® Rectum",
+      "Pharynx ® Oesophagus ® Gizzard ® Crop ® Ileum ® Colon ® Rectum",
+      "Pharynx ® Oesophagus ® Gizzard ® Ileum ® Crop ® Colon ® Rectum",
+      "Pharynx ® Oesophagus ® Ileum ® Crop ® Gizzard ® Colon ® Rectum"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 172,
+    "subject": "Zoology",
+    "stem": "Match the hominids with their correct brain size: (a) Homo habilis (i) 900 cc (b) Homo neanderthalensis (ii) 1350 cc (c) Homo erectus (iii) 650-800 cc (d) Homo sapiens (iv) 1400 cc Select the correct option. (a) (b) (c) (d)",
+    "options": [
+      "(iii) (i) (iv) (ii)",
+      "(iii) (ii) (i) (iv)",
+      "(iii) (iv) (i) (ii)",
+      "(iv) (iii) (i) (ii)"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 173,
+    "subject": "Zoology",
+    "stem": "Identify the correct pair representing the causative agent of typhoid fever and the confirmatory test for typhoid.",
+    "options": [
+      "Plasmodium vivax/UTI test.",
+      "Streptococcus pneumoniae/Widal test",
+      "Salmonella typhi/Anthrone test",
+      "Salmonella typhi/Widal test"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 174,
+    "subject": "Zoology",
+    "stem": "How does steroid hormone influence the cellular activities?",
+    "options": [
+      "Changing the permeability of the cell membrane.",
+      "Binding to DNA and forming a gene-hormone complex.",
+      "Activating cyclic AMP located on the cell membrane.",
+      "Using aquaporin channels as second messenger."
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 175,
+    "subject": "Zoology",
+    "stem": "Tidal Volume and Expiratory Reserve Volume of an athlete is 500 mL and 1000 mL respectively. What will be his Expiratory Capacity if the Residual Volume is 1200 mL?",
+    "options": [
+      "1500 mL",
+      "1700 mL",
+      "2200 mL",
+      "2700 mL"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 176,
+    "subject": "Zoology",
+    "stem": "Which of the following is a commercial blood cholesterol lowering agent?",
+    "options": [
+      "Cyclosporin A",
+      "statin",
+      "Streptokinase",
+      "Lipases"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 177,
+    "subject": "Zoology",
+    "stem": "Which of the following statements regarding mitochondria is incorrect ?",
+    "options": [
+      "Outer membrane is permeable to monomers of carbohydrates fats and proteins.",
+      "Enzymes of electron transport are embedded in outer membrane.",
+      "Inner membrane is convoluted with infoldings.",
+      "Mitochondrial matrix contains single circular DNA molecule and ribosomes."
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 178,
+    "subject": "Zoology",
+    "stem": "Match the Column - I with Column -II Column - I Column - II (a) P-wave (i) Depolarisation of ventricles (b) QRS complex (ii) Repolarisation of ventricles (c) T-wave (iii) Coronary ischemia (d) Reduction in the size (iv) Depolarisation of of T-wave atria (v) Repolarisation of atria Select the correct option- (a) (b) (c) (d)",
+    "options": [
+      "(iv) (i) (ii) (iii)",
+      "(iv) (i) (ii) (v)",
+      "(ii) (i) (v) (iii)",
+      "(ii) (iii) (v) (iv)"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 179,
+    "subject": "Zoology",
+    "stem": "Select the correct group of biocontrol agents.",
+    "options": [
+      "Bacillus thuringiensis,Tobacco mosaic virus, Aphids",
+      "Trichoderma, Baculovirus, Bacillus thuringiensis",
+      "Oscillatoria, Rhizobium, Trichoderma",
+      "Nostoc, Azospirillium, Nucleopolyhedrovirus"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2019",
+    "year": 2019,
+    "number": 180,
+    "subject": "Zoology",
+    "stem": "Select correctly written scientific name of Mango which was first described by Carolus Linnaeus:",
+    "options": [
+      "Mangifera indica Car. Linn.",
+      "Mangifera indica Linn.",
+      "Mangifera indica",
+      "Mangifera Indica"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 3,
+    "subject": "Physics",
+    "stem": "An electron (mass 9 × 10 – 31 kg and charge 1.6 ×10 – 19 C) moving with speed c/100 (c = speed of light) is injected into a magnetic field B of magnitude 9 × 10 – 4 T perpendicular to its direction of motion. We wish to apply an uniform electric E together with the magnetic field so that the electron doe s not deflect from its path. Then (speed of light c = 3 × 10 8 ms – 1 )",
+    "options": [
+      "E is perpendicular to B and its magnitude is 27 × 10 4 V m – 1",
+      "E is perpendicular to B and its magnitude is 27 × 10 2 V m – 1",
+      "E is parallel to B and its magnitude is 27 × 10 2 V m – 1",
+      "E is parallel to B and its magnitude is 27 × 10 4 V m – 1"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 4,
+    "subject": "Physics",
+    "stem": "There are two inclined surfaces of equal length ( L ) and same angle of inclination 45º with the horizontal. One of them is rough and the other is perfectly smooth A given body takes 2 times as much time to slide down on rough surface than on the smooth surface. The coefficient of kinetic friction (  k ) between the object and the rough surface is close to",
+    "options": [
+      "0.25",
+      "0.40",
+      "0.5",
+      "0.75"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 5,
+    "subject": "Physics",
+    "stem": "The kinetic energies of two similar cars A and B are 100 J and 225 J respectively. On applying breaks, car A stops after 1000 m and car B stops after 1500 m. If F A and F B are the forces applied by the breaks on cars A and B, respectively, then the ratio F A / F B is",
+    "options": [
+      "3 2",
+      "2 3",
+      "1 3",
+      "1 2"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 6,
+    "subject": "Physics",
+    "stem": "The current passing through the battery in the given circuit is:",
+    "options": [
+      "2.0 A",
+      "0.5 A",
+      "2.5 A",
+      "1.5 A"
+    ],
+    "correctIndex": 1,
+    "isDiagram": true,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 7,
+    "subject": "Physics",
+    "stem": "A bob of heavy mass m is suspended by a light string of length l. The bob is given a horizontal velocity v 0 as shown in figure. If the string gets slack at some point P making an angle  from the horizontal, the ratio of the speed v of the bob at point P to its initial speed v 0 is:",
+    "options": [
+      "( ) 1 2 sin ",
+      "1 2 1 2 3 sin     +   ",
+      "1 2 cos 2 3 sin      +   ",
+      "1 2 sin 2 3 sin      +    [2]"
+    ],
+    "correctIndex": 3,
+    "isDiagram": true,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 8,
+    "subject": "Physics",
+    "stem": "The output (Y) of the given logic implementation is similar to the output of an/a _______gate.",
+    "options": [
+      "AND",
+      "NAND",
+      "OR",
+      "NOR"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 9,
+    "subject": "Physics",
+    "stem": "The electric field in a plane electromagnetic wave is given by E z = 60 cos (5 x + 1.5 ×10 9 t ) V / m. Then expression for the corresponding magnetic field is (here subscripts denote the direction of the field):",
+    "options": [
+      "B y = 2 × 10 – 7 cos (5 x + 1.5 × 10 9 t ) T",
+      "B x = 2 × 10 – 7 cos (5 x + 1.5 × 10 9 t ) T",
+      "B z = 60cos (5 x + 1.5 × 10 9 t ) T",
+      "B y = 60sin (5 x + 1.5 × 10 9 t ) T"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 10,
+    "subject": "Physics",
+    "stem": "A ball of mass 0.5 kg is dropped from a height of 40 m. The ball hits the ground and rises to a height of 10 m. The impulse imparted to the ba ll during its collision with the ground is ( Take g = 9.8 m / s 2 )",
+    "options": [
+      "21 N s",
+      "7 N s",
+      "0",
+      "84 N s"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 11,
+    "subject": "Physics",
+    "stem": "AB is a part of an electrical circuit (see figure). The potential difference “ V A – V B ”, at the instant when current i = 2 A and is increasing at a rate of 1 amp/second is:",
+    "options": [
+      "5 volt",
+      "6 volt",
+      "9 volt",
+      "10 volt"
+    ],
+    "correctIndex": 3,
+    "isDiagram": true,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 12,
+    "subject": "Physics",
+    "stem": "A 2 amp current is flowing through two different small circular copper coils having radii ratio 1:2. The ratio of their respective magnetic moments will be",
+    "options": [
+      "1:4",
+      "1:2",
+      "2:1",
+      "4:1"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 13,
+    "subject": "Physics",
+    "stem": "In a certain camera, a combination of four similar thin convex lenses are arranged axially in contact. Then the power of the combination and the total magnification in comparison to the power ( p ) and magnification ( m ) for each lens will be, respectively –",
+    "options": [
+      "4 p and 4 m",
+      "p 4 and 4 m",
+      "4 p and m 4",
+      "p 4 and m 4"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 14,
+    "subject": "Physics",
+    "stem": "An oxygen cylinder of volume 30 litre has 18.20 moles of oxygen. After some oxygen is withdrawn from the cylinder, its gauge pressure drops to 11 atmospheric pressure at temperature 27ºC. The mass of the oxygen withdrawn from the cylinder is nearly equal to: [Given, 1 1 100, 12 − − = R J mol K and molecular mass of O 2 = 32, 1 atm pressure = 1.01 ×10 5 N / m 2 ]",
+    "options": [
+      "0.125 kg",
+      "0.144 kg",
+      "0.116 kg",
+      "0.156 kg"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 15,
+    "subject": "Physics",
+    "stem": "In some appropriate units, time ( t ) and position ( x ) relation of a moving particle is given by t = x 2 + x. The acceleration of the particle is",
+    "options": [
+      "3 2 ( 2) − + x",
+      "3 2 (2 1) − + x",
+      "3 2 ( 1) + + x",
+      "2 2 1 + + x [3]"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 16,
+    "subject": "Physics",
+    "stem": "To an ac power supply of 220 V at 50 Hz, a resistor of 20 Ω, a capacitor of reactance 25 Ω and an inductor of reactance 45 Ω are connected in series. The corresponding current in the circuit and the phase angle between the current and the voltage is, respectively:",
+    "options": [
+      "7.8 A and 30°",
+      "7.8 A and 45°",
+      "15.6 A and 30°",
+      "15.6 A and 45°"
+    ],
+    "correctIndex": 1,
+    "isDiagram": true,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 17,
+    "subject": "Physics",
+    "stem": "The Sun rotates around its centre once in 27 days. What will be the period of revolution if the Sun were to expand to twice its present radius without any external influence? Assume the Sun to be a sphere of uniform density.",
+    "options": [
+      "100 days",
+      "105 days",
+      "115 days",
+      "108 days"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 18,
+    "subject": "Physics",
+    "stem": "A model for quantized motion of an electron in a uniform magnetic field B states that the flux passing through the orbit of the electron is n ( h /e) where n is an integer, h is Planck's constant and e is the magnitude of electron's charge. According to the model, the magnetic moment of an electron in its lowest energy state will be ( m is the mass of the electron)",
+    "options": [
+      "he m ",
+      "2 he m ",
+      "heB m ",
+      "2 heB m "
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 20,
+    "subject": "Physics",
+    "stem": "The plates of a parallel plate capacitor are separated by d. Two slabs of different dielectric constant K 1 and K 2 with thickness 3 and, 8 2 d d respectively are inserted in the capacitor. Due to this, the capacitance becomes two times larger than when there is nothing between the plates. If K 1 = 1.25 K 2, the value of K 1 is:",
+    "options": [
+      "2.66",
+      "2.33",
+      "1.60",
+      "1.33"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 21,
+    "subject": "Physics",
+    "stem": "Two cities X and Y are connected by a regular bus service with a bus leaving in either direction every T min. A girl is driving scooty with a speed of 60 km/h in the direction X to Y notices that a bus goes past her every 30 minutes in the direction of her motion, and every 10 minutes in the opposite direction. Choose the correct option for the period T of the bus service and the speed (assumed constant) of the buses.",
+    "options": [
+      "9 min, 40 km/h",
+      "25 min, 1 0 0 km/h",
+      "10 min, 90 km/h",
+      "15 min, 120 km/h"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 22,
+    "subject": "Physics",
+    "stem": "A uniform rod of mass 20 kg and length 5 m leans against a smooth vertical wall making an angle of 60 ° with it. The other end rests on a rough horizontal floor. The friction force that the floor exerts on the rod is: (take g = 10 m/s 2 )",
+    "options": [
+      "100 N",
+      "100 3 N",
+      "200 N",
+      "200 3 N [4]"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 23,
+    "subject": "Physics",
+    "stem": "In an oscillating spring mass system, a spring is connected to a box filled with sand. As the box oscillates, sand leaks slowly out of the box vertically so that the average frequency ω( t ) and average amplitude A ( t ) of the system change with time t. Which one of the following options schematically depicts these changes correctly?",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 24,
+    "subject": "Physics",
+    "stem": "A balloon is made of a material of surface tension S and its inflation outlet (from where gas is filled in i t) has small area A. It is filled with a gas of density ρ and takes a spherical shape of radius R. When the gas is allowed to flow fr e ely out of i t, its radius r changes from R to 0 (zero) in time T. If the speed v ( r ) of gas coming out of the balloon depends on r as r a and T S A R      ",
+    "options": [
+      "1 1 3,, 1, 1, 2 2 2 a =  =  = −  = +  =",
+      "1 1 1 5,, 1,, 2 2 2 2 a = −  = −  = −  = −  =",
+      "1 1 1 7,, 1,, 2 2 2 2 a = −  = −  = −  =  =",
+      "1 1 1 1 7,,,, 2 2 2 2 2 a =  =  = −  =  ="
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 25,
+    "subject": "Physics",
+    "stem": "Consider the diameter of a spherical object being measured with the help of a Vernier callipers. Suppose its 10 Vernier Scale Divisions (V.S.D.) are equal to its 9 Main Scale Divisions (M.S.D.). The least division in the M.S. is 0.1 cm and the zero of V.S. is at x = 0.1 cm when the jaws of Vernier callipers are closed. If the main scale reading for the diameter is M = 5 cm and the number of coinciding vernier division is 8, the measured diameter after zero error correction, is:",
+    "options": [
+      "5.18 cm",
+      "5.08 cm",
+      "4.98 cm",
+      "5.00 cm"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 26,
+    "subject": "Physics",
+    "stem": "A parallel plate capacitor made of circular plates is being charged such that the surface charge density on its plates is increasing at a constant rate with time. The magnetic field arising due to displacement current is:",
+    "options": [
+      "zero at all places",
+      "constant between the plates and zero outside the plates.",
+      "non - zero everywhere with maximum at the imaginary cylindrical surface connecting peripheries of the plates.",
+      "zero between the plates and non - zero outside."
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 27,
+    "subject": "Physics",
+    "stem": "An unpolarized light beam travelling in air is incident on a medium of refractive index 1.73 at Brewster's angle. Then -",
+    "options": [
+      "reflected light is completely polarized and the angle of reflection is close to 60 °",
+      "reflected lig ht is partially polarized and the angle of reflection is close to 30 °.",
+      "both reflected and transmitted light are perfectly polarized with angles of reflection and refraction close to 60 ° and 30 °, respectively.",
+      "transmitted light is completely polarized with angle of refraction close to 30 °"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 28,
+    "subject": "Physics",
+    "stem": "Two identical charged conducting spheres A and B have their centres separated by a certain distance. Charge on each sphere is q and the force of repulsion between them is F. A third identical uncharged conducting sphere is brought in contact with sphere A first and then with B and finally removed from both. New force of repulsion between spheres A and B (Radii of A and B are negligible compared to the distance of separation so that for calculating force between them they can be considered as point charges) is best given as:",
+    "options": [
+      "3 5 F",
+      "2 3 F",
+      "2 F",
+      "3 8 F [5]"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 29,
+    "subject": "Physics",
+    "stem": "A container has two chambers of volumes V 1 = 2 litres and V 2 = 3 litres separated by a partition made of a thermal insulator. The chambers contains n 1 = 5 and n 2 = 4 moles of ideal gas at pressures p 1 = 1 atm and p 2 = 2 atm, respectively. When the partition is removed, the mixture attains an equilibrium pressure of:",
+    "options": [
+      "1.3 atm",
+      "1.6 atm",
+      "1.4 atm",
+      "1.8 atm"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 31,
+    "subject": "Physics",
+    "stem": "The radius of Martian orbit around t h e S un is about 4 times the radius of the orbit of Mercury. The Martian year is 687 Earth days. Then which o f the following is the length of I year on Mercury?",
+    "options": [
+      "88 earth da y s",
+      "225 earth da y s",
+      "172 earth da y s",
+      "124 earth da y s"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 32,
+    "subject": "Physics",
+    "stem": "A body weigh t 4 8 N on the surface o f t h e earth. The gravitational force experienced by the body due to the earth at a height equal to one - third the r adius of the earth from its surface is:",
+    "options": [
+      "16 N",
+      "27 N",
+      "32 N",
+      "36 N"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 33,
+    "subject": "Physics",
+    "stem": "A wire of resistance R is cut into 8 equal pieces. From these pieces two equivalent resistances are m ade by adding four of these together in parallel. Then these two sets are added in serie s. The net effective resistance of the combination is:",
+    "options": [
+      "64 R",
+      "32 R",
+      "16 R",
+      "8 R"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 34,
+    "subject": "Physics",
+    "stem": "De - Broglie wavelength of an electron orbiting in the n = 2 state of hydrogen atom is close to (Given Bohr radius = 0.052 nm )",
+    "options": [
+      "0.067 nm",
+      "0.67 nm",
+      "1.67 nm",
+      "2.67 nm"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 35,
+    "subject": "Physics",
+    "stem": "An electric dipole with dipole moment 5 × 10 – 6 Cm is al igned with the direction of a uniform electric field of magnitude 4 × 10 5 N/C. Th e dipole is then rotated through an angle of 6 0° with respect to the electric field. The change in the potential energy of the dipole is:",
+    "options": [
+      "0.8 J",
+      "1.0 J",
+      "1.2 J",
+      "1.5 J"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 36,
+    "subject": "Physics",
+    "stem": "A constant voltage of 50 V is maintained between the points A and B of the c ircuit shown in the figure. The current through the branch CD of the circuit is:",
+    "options": [
+      "1.5 A",
+      "2.0 A",
+      "2.5 A",
+      "3.0 A"
+    ],
+    "correctIndex": 1,
+    "isDiagram": true,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 37,
+    "subject": "Physics",
+    "stem": "A photon and a n electron (mass m ) have the same energy E. The ratio ( ) photon electron λ /λ of their de Broglie wavelengths i s ( c is the speed of light)",
+    "options": [
+      "/ 2 E m",
+      "2 c mE",
+      "2 m c E",
+      "1 / 2 E m c [6]"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 38,
+    "subject": "Physics",
+    "stem": "Which of the following options represent the variation of photoelectric current with property of light shown on the x - axis?",
+    "options": [
+      "A only",
+      "A and C",
+      "A and D",
+      "B and D"
+    ],
+    "correctIndex": 0,
+    "isDiagram": true,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 39,
+    "subject": "Physics",
+    "stem": "A sphere of radius R is cut from a larger solid sphere or radius 2 R as shown in the figure. The ratio of the moment of inertia of the smaller sphere to that of the rest part of the sphere about the Y - axis is:",
+    "options": [
+      "7 8",
+      "7 40",
+      "7 57",
+      "7 64"
+    ],
+    "correctIndex": 2,
+    "isDiagram": true,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 40,
+    "subject": "Physics",
+    "stem": "A full wave rectifier circuit with diodes (D 1 ) and ( D 2 ) is shown in the figure. If input supply voltage V in = 220sin ( ) 100 π t volt, then at t = 15 m sec",
+    "options": [
+      "D 1 is forward biased, D 2 is reverse biased",
+      "D 1 is reverse biased, D 2 is forward biased",
+      "D 1 and D 2 both are forward biased",
+      "D 1 and D 2 both are reverse biased"
+    ],
+    "correctIndex": 1,
+    "isDiagram": true,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 41,
+    "subject": "Physics",
+    "stem": "Two gases A and B are filled at the same pressure in separate cyli n ders with movable pistons of radius r A and r B, respectively. On supplying an equal amount of heat to both the systems reversibly under constant pressure, the pistons of gas A and B are displaced by 16 cm and 9 cm, respectively. If the change in their internal energy is the same, then the ratio r A / r B is equal to",
+    "options": [
+      "4 3",
+      "3 4",
+      "2 3",
+      "3 2"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 42,
+    "subject": "Physics",
+    "stem": "A physical quantity P is related to four observations a, b, c and d as follows: 3 2 / = P a b c d The percentage errors of measurement in a, b, c and d are 1%, 3%, 2%, a nd 4% respectively. The percentage error in th e quantity P is",
+    "options": [
+      "10%",
+      "2%",
+      "13%",
+      "15%"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 43,
+    "subject": "Physics",
+    "stem": "The intensity of transmitted light when a polaroid sheet, placed b e tween two cross e d polarization at 22.5 ° from the polarization axis of one of the polaroid, i s ( I 0 is the intensity or polarised light after p a ssing through the first polaroid):",
+    "options": [
+      "0 2 I",
+      "0 4 I",
+      "0 8 I",
+      "0 16 I"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 44,
+    "subject": "Physics",
+    "stem": "Two identical point masses P and Q, suspended from two separate ma ss less springs of spring constants k 1 and k 2 respectively, oscillate vertically. If their maximum speeds are the same, the ratio ( A Q / A P ) of the amplitude A Q of mass Q to the amplitude A P of mass P is:",
+    "options": [
+      "2 1 k k",
+      "1 2 k k",
+      "2 1 k k",
+      "1 2 k k"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 45,
+    "subject": "Physics",
+    "stem": "A pipe open at both ends has a fundamental frequency f in air. The pipe is now dipped vertically in a water d rum to half of its length. The fundamental frequency of the air column is now equal to:",
+    "options": [
+      "2 f",
+      "f",
+      "3 2 f",
+      "2 f [7]"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 46,
+    "subject": "Chemistry",
+    "stem": "The ratio of the wavelengths of the light absorbed by a Hydrogen atom when it undergoes n = 2 → n = 3 and n = 4 → n = 6 transitions, respectively, is",
+    "options": [
+      "1 36",
+      "1 16",
+      "1 9",
+      "1 4"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 47,
+    "subject": "Chemistry",
+    "stem": "Which of the following statements are true? A. Unlike Ga that has a very high melting point, Cs has a very low melting point. B. On Pauling scale, the electronegativity values of N and Cl are not the same. C. Ar, K +, Cl –, Ca 2+ and S 2– are all isoelectronic species. D. The correct order of the first ionization enthalpies of Na, Mg, Al, and Si is Si > A  > Mg > Na. E. The atomic radius of Cs is greater than that of Li and Rb. Choose the correct answer from the options given below:",
+    "options": [
+      "A, B and E only",
+      "C and E only",
+      "C and D only",
+      "A, C and E only"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 48,
+    "subject": "Chemistry",
+    "stem": "Match List-I with List-II. List - I (Ion) List - II (Group Number in Cation Analysis) A. Co 2+ I. Group-I B. Mg 2+ II. Group-III C. Pb 2+ III. Group-IV D. A  3+ IV. Group-VI Choose the correct answer from the options given below:",
+    "options": [
+      "A-III, B-IV, C-II, D-I",
+      "A-III, B-IV, C-I, D-II",
+      "A-III, B-II, C-IV, D-I",
+      "A-III, B-II, C-I, D-IV"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 49,
+    "subject": "Chemistry",
+    "stem": "Predict the major product 'P' in the following sequence of reactions-",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 50,
+    "subject": "Chemistry",
+    "stem": "Energy and radius of first Bohr orbit of He + and Li 2+ are [Given R H = 2.18×10 –18 J, a 0 = 52.9 pm]",
+    "options": [
+      "E n (Li 2+ ) = –19.62 × 10 –18 J: r n (Li 2+ ) = 17.6 pm E n (He + ) = –8.72× 10 –18 J; r n (He + ) = 26.4 pm",
+      "E n (Li 2+ ) = –8.72 × 10 –18 J; r n (Li 2+ ) = 26.4 pm E n (He + ) = –19.62 × 10 –18 J: r n (He + ) = 17.6 pm",
+      "E n (Li 2+ ) = –19.62 × 10 –16 J; r n (Li 2+ ) = 17.6 pm E n (He + ) = –8.72 × 10 –16 J: r n (He + ) = 26.4 pm",
+      "E n (Li 2+ ) = –8.72 × 10 –16 J; r n (Li 2+ ) = 17.6 pm E n (He 2+ ) = –19.62 × 10 –16 J: r n (He + ) = 17.6 pm"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 51,
+    "subject": "Chemistry",
+    "stem": "Which of the following are paramagnetic? A. [NiCl 4] 2– B. Ni(CO) 4 C. [Ni(CN) 4 ] 2– D. [Ni(H 2O) 6] 2+ E. Ni (PPh 3) 4 Choose the correct answer from the options given below:",
+    "options": [
+      "A and C only",
+      "B and E only",
+      "A and D only",
+      "A, D and E only [8]"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 52,
+    "subject": "Chemistry",
+    "stem": "Given below are two statements: Statement I: Like nitrogen that can form ammonia, arsenic can form arsine. Statement II: Antimony cannot form antimony pentoxide. In the light of the above statements, choose the most appropriate answer from the options given below:",
+    "options": [
+      "Both Statement I and Statement II are correct.",
+      "Both Statement I and Statement II are incorrect.",
+      "Statement I is correct but Statement II is incorrect.",
+      "Statement I is incorrect but Statement II is correct."
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 53,
+    "subject": "Chemistry",
+    "stem": "Which among the following electronic configurations belong to main group elements? A. [Ne]3s 1 B. [Ar]3d 3 4s 2 C. [Kr]4d 10 5s 2 5p 5 D. [Ar]3d 10 4s 1 E. [Rn]5f 0 6d 2 7s 2 Choose the correct answer from the options given below:",
+    "options": [
+      "B and E only",
+      "A and C only",
+      "D and E only",
+      "A, C and D only"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 54,
+    "subject": "Chemistry",
+    "stem": "Dalton's Atomic theory could not explain which of the following?",
+    "options": [
+      "Law of conservation of mass",
+      "Law of constant proportion",
+      "Law of multiple proportion",
+      "Law of gaseous volume"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 55,
+    "subject": "Chemistry",
+    "stem": "Consider the following compounds: KO 2, H 2O 2 and H 2SO 4 The oxidation states of the underlined elements in them are, respectively,",
+    "options": [
+      "+1, –1, and +6",
+      "+2, –2, and +6",
+      "+1, –2, and +4",
+      "+4, –4, and +6"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 56,
+    "subject": "Chemistry",
+    "stem": "If the half-life (t 1/2 ) for a first order reaction is 1 minute, then the time required for 99.9% completion of the reaction is closet to:",
+    "options": [
+      "2 minutes",
+      "4 minutes",
+      "5 minutes",
+      "10 minutes"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 57,
+    "subject": "Chemistry",
+    "stem": "The correct order of the wavelength of light absorbed by the following complexes is, A. [Co(NH 3) 6] 3+ B. [Co(CN) 6 ] 3– C. [Cu(H 2O) 4] 2+ D. [Ti(H 2O) 6 ] 3+ Choose the correct answer from the options given below:",
+    "options": [
+      "B < D < A < C",
+      "B < A < D < C",
+      "C < D < A < B",
+      "C < A < D < B"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 58,
+    "subject": "Chemistry",
+    "stem": "Which one of the following compounds can exist as cis-trans isomers?",
+    "options": [
+      "Pent-1-ene",
+      "2-Methylhex-2-ene",
+      "1,1-Dimethylcyclopropane",
+      "1.2-Dimethylcyclohexane"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 59,
+    "subject": "Chemistry",
+    "stem": "Phosphoric acid ionizes in three steps with their ionization constant values 1 2 a a K, K and 3 a K, respectively, while K is the overall ionization constant. Which of the following statements are true? A. 1 2 3 a a a log K log K log K log K = + + B. H 3 PO 4 is stronger acid than – 2 4 H PO and 2– 4 HPO. C. 1 2 3 a a a K K K > > D. 3 2 1 a a a K K K 2 + = Choose the correct answer from the options given below:",
+    "options": [
+      "A and B only",
+      "A and C only",
+      "B, C and D only",
+      "A, B and C only"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 60,
+    "subject": "Chemistry",
+    "stem": "Which one of the following reactions does NOT give benzene as the product?",
+    "options": [
+      "",
+      "",
+      "",
+      "[9]"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 61,
+    "subject": "Chemistry",
+    "stem": "If the molar conductivity ( ) m Λ of a 0.050 mol L –1 solution of a monobasic weak acid is 90 S cm 2 mol –1, its extent (degree) of dissociation will be [Assume ° + Λ = 349.6 S cm 2 mol –1 and – ° Λ = 50.4 S cm 2 mol –1 ]",
+    "options": [
+      "0.115",
+      "0.125",
+      "0.225",
+      "0.215"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 62,
+    "subject": "Chemistry",
+    "stem": "Given below are two statements: Statement I: A hypothetical diatomic molecule with bond order zero is quite stable. Statement II: As bond order increases, the bond length increases. In the light of the above statements, chose the most appropriate answer from the options given below:",
+    "options": [
+      "Both statement I and Statement II are true",
+      "Both statement I and Statement II are false",
+      "Statement I is true but Statement II is false",
+      "Statement I is true but Statement II is true"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 64,
+    "subject": "Chemistry",
+    "stem": "Match the List-I with List-II. List - I List - I I A. XeO 3 I. sp 3 d; linear B. XeF 2 II. sp 3; pyramidal C. XeOF 4 III. sp 3 d 3: distorted octahedral D. XeF 6 IV. sp 3 d 2; square pyramidal Choose the correct answer from the options given below.",
+    "options": [
+      "A-II, B-I, C-IV, D-III",
+      "A-II, B-I, C-III, D-IV",
+      "A-IV, B-II, C-III, D-I",
+      "A-IV, B-II, C-I, D-III"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 65,
+    "subject": "Chemistry",
+    "stem": "C(s) + 2H 2 (g) → CH 4 (g); ∆ H= –74.8 kJ mol –1 Which of the following diagrams gives an accurate representation of the above reaction? [R → reactants; P → products]",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correctIndex": 0,
+    "isDiagram": true,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 66,
+    "subject": "Chemistry",
+    "stem": "Match the List-I with List-II. List - I (Example) List - I I (Type of Solution) A. Humidity I. Solid in solid B. Alloys II. Liquid in gas C. Amalgams III. Solid in gas D. Smoke IV. Liquid in solid Choose the correct answer from the options given below.",
+    "options": [
+      "A-II, B-IV, C-I, D-III",
+      "A-II, B-I, C-IV, D-III",
+      "A-III, B-I, C-IV, D-II",
+      "A-III, B-II, C-I, D-IV"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 67,
+    "subject": "Chemistry",
+    "stem": "The correct order of decreasing basic strength of the given amines is:",
+    "options": [
+      "N-methylaniline > benzenamine > ethanamine > N-ethylethanamine",
+      "N-ethylethanamine > ethanamine > benzenamine > N-methylaniline",
+      "N-ethylethanamine > ethanamine > N- methylaniline > benzenamine",
+      "benzenamine > ethanamine > N-methylaniline > N-ethylethanamine [10]"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 68,
+    "subject": "Chemistry",
+    "stem": "Among the following, choose the ones with equal number of atoms. A. 212 g of Na 2CO 3 (s) [molar mass = 106 g] B. 248 g of Na 2O (s) [molar mass = 62 g] C. 240 g of NaOH (s) [molar mass = 40 g] D. 12 g of H 2(g) [molar mass = 2 g] E. 220 g of CO 2(g) [molar mass = 44 g] Choose the correct answer from the options given below:",
+    "options": [
+      "A, B, and C only",
+      "A, B, and D only",
+      "B, C, and D only",
+      "B, D, and E only"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 69,
+    "subject": "Chemistry",
+    "stem": "Match the List-I with List-II. List - I ( Name of Vitamin ) List - I I ( Deficiency disease) A. Vitamin B 12 I. Cheilosis B. Vitamin D II. Convulsions C. Vitamin B 2 III. Rickets D. Vitamin B 6.IV. Pernicious anaemia Choose the correct answer from the options given below.",
+    "options": [
+      "A-I, B-III, C-II, D-IV",
+      "A-IV, B-III, C-I, D-II",
+      "A-II, B-III, C-I, D-IV",
+      "A-IV, B-III, C-II, D-I"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 70,
+    "subject": "Chemistry",
+    "stem": "The correct order of decreasing acidity of the following aliphatic acids is:",
+    "options": [
+      "(CH 3 ) 3 CCOOH > (CH 3 ) 2 CHCOOH > CH 3 COOH > HCOOH",
+      "CH 3 COOH > (CH 3 ) 2 CHCOOH > (CH 3 ) 3 CCOOH > HCOOH",
+      "HCOOH > CH 3 COOH > (CH 3) 2 CHCOOH > (CH 3) 3 CCOOH",
+      "HCOOH > (CH 3 ) 3CCOOH > (CH 3 ) 2CHCOOH > CH 3 COOH"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 71,
+    "subject": "Chemistry",
+    "stem": "Given below are two statements; Statement I: Ferromagnetism is considered as an extreme form of paramagnetism. Statement II: The number of unpaired electrons in a Cr 2+ ion (Z=24) is the same as that of a Nd 3+ ion (Z= 60). In the light of the above statements, choose the correct answer from the options given below:",
+    "options": [
+      "Both Statement I and Statement II are true",
+      "Both Statement I and Statement II are false",
+      "Statement I is true but Statement II is false",
+      "Statement I is false but Statement II is true"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 72,
+    "subject": "Chemistry",
+    "stem": "Match the List-I with List-II. List - I (Mixture) List - I I (Method of Separation) A. CHCl 3 + C 6H 5NH 2 I. Distillation under reduced pressure B. Crude oil in petroleum industry II. Steam distillation C. Glycerol from spent-lye III. Fractional distillation D. Aniline-water IV. Simple distillation Choose the correct answer from the options given below.",
+    "options": [
+      "A-IV, B-III, C-I, D-II",
+      "A-IV, B-III, C-II, D-I",
+      "A-III, B-IV, C-I, D-II",
+      "A-III, B-IV, C-II, D-I"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 73,
+    "subject": "Chemistry",
+    "stem": "For the reaction A(g)  2B(g), the backward reaction rate constant is higher than the forward reaction rate constant by a factor of 2500, at 1000 K. [Given: R= 0.0831 L atm mol –1 K –1 ] K P for the reaction at 1000 K is",
+    "options": [
+      "83.1",
+      "2.077×10 5",
+      "0.033",
+      "0.021"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 74,
+    "subject": "Chemistry",
+    "stem": "Given below are two statements: Statement I: Benzenediazonium salt is prepared by the reaction of aniline with nitrous acid at 273-278 K. It decomposes easily in the dry state. Statement II: Insertion of iodine into the benzene ring is difficult and hence iodobenzene is prepared through the reaction of benzenediazonium salt with KI. In the light of the above statements, choose the most appropriate answer from the options given below:",
+    "options": [
+      "Both Statement I and Statement II are correct",
+      "Both Statement I and Statement II are incorrect",
+      "Statement I is correct but Statement II is incorrect",
+      "Statement I is incorrect but Statement II is correct"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 75,
+    "subject": "Chemistry",
+    "stem": "How many products (including stereoisomers) are expected from monochlorination of the following compound?",
+    "options": [
+      "2",
+      "3",
+      "5",
+      "6 [11]"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 76,
+    "subject": "Chemistry",
+    "stem": "Among the given compounds I-III, the correct order of bond dissociation energy of C–H bond marked with * is:",
+    "options": [
+      "II > I > III",
+      "I > II > III",
+      "III > II > I",
+      "II > III > I"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 77,
+    "subject": "Chemistry",
+    "stem": "Which one of the following compounds does not decolourize bromine water?",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 78,
+    "subject": "Chemistry",
+    "stem": "The major product of the following reaction is:",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 79,
+    "subject": "Chemistry",
+    "stem": "Which of the following aqueous solution will exhibit highest boiling point?",
+    "options": [
+      "0.01 M Urea",
+      "0.01 M KNO 3",
+      "0.01 M Na 2 SO 4",
+      "0.015 M C 6 H 12 O 6"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 80,
+    "subject": "Chemistry",
+    "stem": "Match List-I with List-II. List - I List - I I A. Haber process I. Fe catalyst B. Wacker oxidation II. PdCl 2 C. Wilkinson catalyst III. [(PPh 3) 3RhCl] D. Ziegler catalyst IV. TiCl 4 with Al(CH 3) 3 Choose the correct answer from the options given below:",
+    "options": [
+      "A-I, B-II, C-IV, D-III",
+      "A-II, B-III, C-I, D-IV",
+      "A-I, B-II, C-III, D-IV",
+      "A-I, B-IV, C-III, D-II"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 81,
+    "subject": "Chemistry",
+    "stem": "5 moles of liquid X and 10 moles of liquid Y make a solution having a vapour pressure of 70 torr. The vapour pressures of pure X and Y are 63 torr and 78 torr respectively. Which of the following is true regarding the described solution?",
+    "options": [
+      "The solution shows positive deviation.",
+      "The solution shows negative deviation.",
+      "The solution is ideal.",
+      "The solution has volume greater than the sum of individual volumes."
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 82,
+    "subject": "Chemistry",
+    "stem": "Sugar ‘X’ A. is found in honey. B. is a keto sugar. C. exists in α and β – anomeric forms. D. is laevorotatory. ‘X’ is:",
+    "options": [
+      "D-Glucose",
+      "D-Fructose",
+      "Maltose",
+      "Sucrose"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 83,
+    "subject": "Chemistry",
+    "stem": "Identify the suitable reagent for the following conversion.",
+    "options": [
+      "(i) LiAlH 4, (ii) H + /H 2O",
+      "(i) AlH(iBu) 2 (ii) H 2 O",
+      "(i) NaBH 4, (ii) H + /H 2O",
+      "(i) H 2/Pd-BaSO 4 [12]"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 84,
+    "subject": "Chemistry",
+    "stem": "Given below are two statement: one is labelled as Assertion (A) and the other is labelled as Reason (R): Assertion (A): undergoes S N 2 reaction faster than. Reason (R): Iodine is a better leaving group because of its large size. In the light of the above statements, choose the correct answer from the options given below:",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A.",
+      "Both A and R are true but R is not the correct explanation of A.",
+      "A is true but R is false.",
+      "A is false but R is true."
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 85,
+    "subject": "Chemistry",
+    "stem": "The standard heat of formation, in kcal/mol of Ba 2+ is: [Given: standard heat of formation of 2 4 SO − ion (aq)= –216 kcal/mol, standard heat of crystallization of BaSO 4 (s) = –4.5 kcal/mol, standard heat of formation of BaSO 4 (s) = –349 kcal/mol]",
+    "options": [
+      "–128.5",
+      "–133.0",
+      "+133.0",
+      "+220.5"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 86,
+    "subject": "Chemistry",
+    "stem": "Total number of possible isomers (both structural as well as stereoisomers) of cyclic ethers of molecular formula C 4 H 8O is:",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "11"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 87,
+    "subject": "Chemistry",
+    "stem": "Identify the correct orders against the property mentioned A. H 2O > NH 3 > CHCl 3 - dipole moment B. XeF 4 > XeO 3 > XeF 2 – number of lone pairs on central atom C. O–H > C–H > N–O – bond length D. N 2 > O 2 > H 2 – bond enthalpy Choose the correct answer from the options given below:",
+    "options": [
+      "A, D only",
+      "B, D only",
+      "A, C only",
+      "B, C only"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 88,
+    "subject": "Chemistry",
+    "stem": "Higher yield of NO in 2 2 N (g) O 2NO(g) +  can be obtained at [ ∆ H of the reaction = + 180.7 kJ mol –1 ] A. higher temperature B. lower temperature C. higher concentration of N 2 D. higher concentration of O 2 Choose the correct answer from the options given below:",
+    "options": [
+      "A, D only",
+      "B, C only",
+      "B, C, D only",
+      "A, C, D only"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 89,
+    "subject": "Chemistry",
+    "stem": "If the rate constant of a reaction is 0.03 s –1, how much time does it take for 7.2 mol L –1 concentration of the reactant to get reduced to 0.9 mol L –1 ? (Given: log 2 = 0.301)",
+    "options": [
+      "69.3 s",
+      "23.1 s",
+      "210 s",
+      "21.0 s"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 90,
+    "subject": "Chemistry",
+    "stem": "Which one of the following reactions does NOT belong to “Lassaigne’s test”?",
+    "options": [
+      "Na C N NaCN ∆ + +  →",
+      "2 2Na S Na S ∆ +  →",
+      "Na X NaX ∆ +  → +",
+      "2 2CuO C 2Cu CO ∆ +  → + [13]"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 91,
+    "subject": "Botany",
+    "stem": "The complex II of mitochondrial electron transport chain is also known as",
+    "options": [
+      "Cytochrome bc 1",
+      "Succinate dehydrogenase",
+      "Cytochrome c oxidase",
+      "NADH dehydrogenase"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 93,
+    "subject": "Botany",
+    "stem": "What are the potential drawbacks in adoption of the IVF method? A. High fatality risk to mother B. Expensive instruments and reagents C. Husband/wife necessary for being donors D. Less adoption of orphans E. Not available in India F. Possibility that the early embryo does not survive Choose the correct answer from the options given below:",
+    "options": [
+      "B, D, F only.",
+      "A, C, D, F only",
+      "A, B, C, D only",
+      "A, B, C, E, F only"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 94,
+    "subject": "Botany",
+    "stem": "What is the name of the blood vessel that carries deoxygenated blood from the body to the heart in a frog?",
+    "options": [
+      "Aorta",
+      "Pulmonary artery",
+      "Pulmonary vein",
+      "Vena cava"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 95,
+    "subject": "Botany",
+    "stem": "Which one of the following statements refers to Reductionist Biology?",
+    "options": [
+      "Physico - chemical approach to study and understand living organisms.",
+      "Physiological approach to study and understand, living organisms.",
+      "Chemical approach to study and understand living organisms.",
+      "Behavioural approach to study and understand living organisms."
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 96,
+    "subject": "Botany",
+    "stem": "Given below are two statements: Statement I: In the RNA world, RNA is considered the first genetic material evolved to carry out essential life processes. RNA acts as a genetic material and also as a catalyst for some important biochemical reactions in living systems. Bei n g reactive, RNA is unstable. Statement II: DNA evolved from RNA and is a more stable genetic material. Its double helical strands being complementary, resist changes by evolving repairing mechanism. In the light of the above statements, choose the most appropriate answer from the options given below:",
+    "options": [
+      "Both statement I and statement II are correct",
+      "Both statement I and statement II are incorrect",
+      "Statement I is correct but statement II is incorrect",
+      "Statement I is incorrect but statement II is correct"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 97,
+    "subject": "Botany",
+    "stem": "Epiphytes that are growing on a mango branch is an example of which of the following?",
+    "options": [
+      "Commensalism",
+      "Mutualism",
+      "Predation",
+      "Amensalism"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 98,
+    "subject": "Botany",
+    "stem": "From the statements given below choose the correct option: A. The eukaryotic ribosomes are 80S and prokaryotic ribosomes are 70S. B. Each ribosome has two sub - units. C. The two sub - units of 80S ribosome are 60S and 40S while that of 70S are 50S and 30S. D. The two sub - units of 80S ribosome are 60S and 20S and that of 70S are 50S and 20S. E. The two sub - units of 80S are 60S and 30S an d that of 70S are 50S and 30S",
+    "options": [
+      "A, B, C are true",
+      "A, B, D are true",
+      "A, B, E are true",
+      "B, D, E are true"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 99,
+    "subject": "Botany",
+    "stem": "Which one of the following is an example of ex - situ conservation?",
+    "options": [
+      "National Park",
+      "Wildlife Sanctuary",
+      "Zoos and botanical gardens",
+      "Protected areas. [14]"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 100,
+    "subject": "Botany",
+    "stem": "Given below are two statements: Statement I: The primary source of energy in an ecosystem is solar energy. Statement II: The rate of production of organic matter during photosynthesis in an ecosyste m is called net primary productivity (NPP). In the light of the above statements, choose the most appropriate answer from the options given below:",
+    "options": [
+      "Both statement I and statement II are correct",
+      "Both statement I and statement II are incorrect",
+      "Statement I is correct but statement II is incorrect",
+      "Statement I is incorrect but statement II is correct"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 101,
+    "subject": "Botany",
+    "stem": "Match List - I with List - II. List - I List - II A. Emphysema I. Rapid spasms in muscle due to low Ca ++ in body fluid B. Angina Pectoris II. Damaged alveolar walls and decreased respiratory surface C. Glomerulo - nephritis III. Acute chest pain when not enough oxygen is reaching to heart muscle D. Tetany IV. Inflammation of glomeruli of kidney Choose the correct answer from the options given below:",
+    "options": [
+      "A - I II, B - I, C - I V, D - I I",
+      "A - I II, B - I, C - II, D - IV",
+      "A - II, B - IV, C - I II, D - I",
+      "A - I I, B - I II, C - I V, D - I"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 103,
+    "subject": "Botany",
+    "stem": "Which of the following is an example of non — distilled alcoholic beverage produced by yeast ?",
+    "options": [
+      "Whisky",
+      "Brandy",
+      "Beer",
+      "Rum"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 104,
+    "subject": "Botany",
+    "stem": "Given below are two statements: Statement I: In a floral formula  stands for zygomorphic nature of the flower, and G stands for inferior ovary. Statement II: In a floral formula  stands for actinomorphic nature of the flower and G stands for superior ovary. In the light of the above statements, choose the most appropriate answer from the options given below:",
+    "options": [
+      "Both statement I and statement II are correct",
+      "Both statement I and statement II are incorrect",
+      "Statement I is correct but statement II is incorrect",
+      "Statement I is incorrect but statement II is correct"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 105,
+    "subject": "Botany",
+    "stem": "Streptokinase produced by bacterium Streptococcus is used for",
+    "options": [
+      "Curd production",
+      "Ethanol production",
+      "Liver disease treatment",
+      "Removing clots from blood vessels [15]"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 106,
+    "subject": "Botany",
+    "stem": "Which chromosome in the human genome has the highest number of genes?",
+    "options": [
+      "Chromosome X",
+      "Chromosome Y",
+      "Chromosome 1",
+      "Chromosome 10"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 107,
+    "subject": "Botany",
+    "stem": "Which of the following statement is correct about location of the male frog copulatory pad?",
+    "options": [
+      "First and Second digit of fore limb",
+      "First digit of hind limb",
+      "Second digit of fore limb",
+      "First digit of the fore limb"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 108,
+    "subject": "Botany",
+    "stem": "Which one of the following phytohormones promotes nutrient mobilization which helps in the delay of leaf senescence in plants?",
+    "options": [
+      "Ethylene",
+      "Abscisic acid",
+      "Gibberellin",
+      "Cytokinin"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 109,
+    "subject": "Botany",
+    "stem": "While trying to find out the characteristic of a n ewly found animal, a researcher did the histology of adult animal and observed a cavity with presence of mesodermal tissue towards the body wall but no mesodermal tissue was observed towards the alimentary canal. What could be the possible coelome of that animal?",
+    "options": [
+      "Acoelomate",
+      "Pseudocoelomate",
+      "Schizocoelomate",
+      "Spongocoelomate"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 110,
+    "subject": "Botany",
+    "stem": "Match List - I with List - II. List - I List - II A. Head I. Enzymes B. Middle piece II. Sperm motility C. Acrosome III. Energy D. Tail IV. Genetic material Choose the correct answer from the options given below:",
+    "options": [
+      "A - I V, B - I II, C - I, D - I I",
+      "A - I V, B - I I I, C - II, D - I",
+      "A - II I, B - I V, C - I I, D - I",
+      "A - I II, B - I I, C - I, D - I V"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 111,
+    "subject": "Botany",
+    "stem": "Given below are the stages in the life cycle of pteridophytes. Arrange the following stages in the correct sequence. A. Prothallus stage B. Meiosis in spore mother cells C. Fertilisation D. Formation of archegonia and antheridia in gametophyte. E. Transfer of antherozoids to the archegonia in presence of water. Choose the correct answer from the options given below:",
+    "options": [
+      "B, A, D, E, C",
+      "B, A, E, C, D",
+      "D, E, C, A, B",
+      "E, D, C, B, A"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 112,
+    "subject": "Botany",
+    "stem": "Cardiac activities of the heart are regulated by: A. Nodal tissue B. A special neural centre in the medulla oblongata C. Adrenal medullary hormones D. Adrenal cortical hormones Choose the correct answer from the options given below:",
+    "options": [
+      "A, B and C Only.",
+      "A, B, C and D",
+      "A, C and D Only",
+      "A, B and D Only"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 113,
+    "subject": "Botany",
+    "stem": "Which of following organisms cannot fix nitrogen? A. Azotobacter B. Oscillatoria C. Anabaena D. Volvox E. Nostoc Choose the correct answer from the options given below:",
+    "options": [
+      "A only",
+      "D only",
+      "B only",
+      "E only [16]"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 114,
+    "subject": "Botany",
+    "stem": "Given below are two statements: Statement I: Transfer RNAs and ribosomal RNA do not interact with mRNA. Statement II: RNA interference (RNA i) takes place in all eukaryotic organisms as a method of cellular defence. In the light of the above statements, choose the most appropriate answer from the options given below:",
+    "options": [
+      "Both statement I and statement II are correct",
+      "Bo th statement I and statement II are incorrect",
+      "Statement I is correct but statement II is incorrect",
+      "Statement I is incorrect but statement II is correct"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 115,
+    "subject": "Botany",
+    "stem": "In the above represented plasmid an alien piece of DNA is inserted at EcoRI site. Which of the following strategies will be chosen to select the recombinant colonies?",
+    "options": [
+      "Using ampicillin & tetracyclin containing medium plate.",
+      "Blue color colonies will be selected.",
+      "White color colonies will be selected.",
+      "Blue color colonies grown on ampicillin plates can be selected."
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 116,
+    "subject": "Botany",
+    "stem": "Which of the following genetically engineered organisms was used by Eli Lilly to prepare human insulin?",
+    "options": [
+      "Bacterium",
+      "Yeast",
+      "Virus",
+      "Phage"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 117,
+    "subject": "Botany",
+    "stem": "Name the class of enzyme that usually catalyze the following reaction: S – G + S # → S + S # – G Where, G → a group other than hydrogen S → a substrate S # → another substrate",
+    "options": [
+      "Hydrolase",
+      "Lyase",
+      "Transferas e",
+      "Ligase"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 118,
+    "subject": "Botany",
+    "stem": "Find the statement that is NOT correct with regard to the structure of monocot stem.",
+    "options": [
+      "Hypodermis is parenchymatous.",
+      "Vascular bundles are scattered.",
+      "Vascular bundles are conjoint and closed.",
+      "Phloem parenchyma is a bsent."
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 119,
+    "subject": "Botany",
+    "stem": "The correct sequence of events in the life cycle of bryophytes is A. Fusion of antherozoid with egg. B. Attachment of gametophyte to substratum. C. Reduction division to produce haploid spores. D. Formation of sporophyte. E. Release of antherozoids into water. Choose the correct answer from the option given below:",
+    "options": [
+      "D, E, A, C, B",
+      "B, E, A, C, D",
+      "B, E, A, D, C",
+      "D, E, A, B, C"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 120,
+    "subject": "Botany",
+    "stem": "Which are correct: A. Computed tomography and magnetic resonance imaging detect cancers of internal organs. B. Chemotherapeutics drugs are used to kill non - cancerous cells. C.  - interferon activate the cancer patients’ immune system and helps in destroying the tumour. D. Chemotherapeutic drugs are b iological response modifiers. E. In the case of leukaemia blood cells counts are decreased. Choose the correct answer from the option given below:",
+    "options": [
+      "B and D only",
+      "D and E only",
+      "C and D only",
+      "A and C only"
+    ],
+    "correctIndex": 3,
+    "isDiagram": true,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 121,
+    "subject": "Botany",
+    "stem": "Match List - I with List - II. List - I List - I I A. Centromere I. Mitochondrion B. Cilium II. Cell division C. Cristae III. Cell movement D. Cell membrane IV. Phospholipid Bilayer Choose the correct answer from the options given below:",
+    "options": [
+      "A - I, B - II, C - III, D - IV",
+      "A - II, B - I, C - IV, D - III",
+      "A - IV, B - II, C - III, D - I",
+      "A - II, B - III, C - I, D - IV [17]"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 122,
+    "subject": "Botany",
+    "stem": "Match List - I with List - II. List - I List - I I A. Chlorophyll a I. Yellow - green B. Chlorophyll b II. Yellow C. Xanthophylls III. Blue - green D. Carotenoids IV. Yellow to Yellow - orange Choose the option with all correct matches.",
+    "options": [
+      "A - III, B - IV, C - II, D - I",
+      "A - III, B - I, C - II, D - IV",
+      "A - I, B - II, C - IV, D - III",
+      "A - I, B - IV, C - III, D - II"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 123,
+    "subject": "Botany",
+    "stem": "Find the correct statements: A. In human pregnancy, the major organ systems are formed at the end of 12 weeks. B. In human pregnancy the major organ systems are formed at the end of 8 weeks. C. In human pregnancy heart is formed after one month of gestation. D. In human pregn ancy, limbs and digits develop by the end of second month. E. In human pregnancy the appearance of hair usually observed in the fifth month. Choose the correct answer from the options given below:",
+    "options": [
+      "A and E Only",
+      "B and C Only",
+      "B, C, D and E Only",
+      "A, C, D and E Only"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 124,
+    "subject": "Botany",
+    "stem": "In the seeds of cereals, the outer covering of endosperm separates the embryo by a protein - rich layer called:",
+    "options": [
+      "Coleoptile",
+      "Coleorhiza",
+      "Integument",
+      "Aleurone layer"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 125,
+    "subject": "Botany",
+    "stem": "Which of the following di agrams is correct with regard to the proximal (P) and distal (D) tubule of the Nephron.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 126,
+    "subject": "Botany",
+    "stem": "Identify the part of a bio - reactor which is used as a foam braker from the given figure.",
+    "options": [
+      "A",
+      "B",
+      "D",
+      "C"
+    ],
+    "correctIndex": 3,
+    "isDiagram": true,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 127,
+    "subject": "Botany",
+    "stem": "Given below are two statements: One is labelled as Assertion (A) and the other is labelled as Reason (R). Assertion (A): A typical unfertilized, angiosperm embryo sac at maturity is 8 nucleate and 7 - celled. Reason (R): The egg apparatus has 2 polar nuc lei. In the light of the above statements, choose the correct answer from the options given below:",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A.",
+      "Both A and R are true but R is NOT the correct explanation of A.",
+      "A is true but R is false.",
+      "A is false but R is true. [18]"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 128,
+    "subject": "Botany",
+    "stem": "A specialized membranous structure in a prokaryotic cell which helps in cell wall formation, DNA replication and respiration is:",
+    "options": [
+      "Mesosome",
+      "Chromatophores",
+      "Cristae",
+      "Endoplasmic Reticulum"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 129,
+    "subject": "Botany",
+    "stem": "Which of the following are the post - transcriptional events in an eukaryotic cell? A. Transport of pre - mRNA to cytoplasm prior to splicing. B. Removal of introns and joining of exons. C. Addition of methyl group at 5’ end of hnRNA. D. Addition of adenine residues at 3’ end of hnRNA. E. Base pairing of two complementary RNAs. Choose the correct answer from the option s given below:",
+    "options": [
+      "A, B, C only",
+      "B, C, D only",
+      "B, C, E only",
+      "C, D, E only"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 130,
+    "subject": "Botany",
+    "stem": "What is the pattern of inheritance for polygenic trait?",
+    "options": [
+      "Mendelian inheritance pattern",
+      "Non - mendelian inheritance pattern",
+      "Autosomal dominant pattern",
+      "X - linked recessive inheritance pattern"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 131,
+    "subject": "Botany",
+    "stem": "Which one of the following enzymes cont ains ‘Haem’ as the prosthetic group?",
+    "options": [
+      "RuBisCo",
+      "Carbonic anhydrase",
+      "Succinate dehydrogenase",
+      "Catalase"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 132,
+    "subject": "Botany",
+    "stem": "Each of the following characteristics represent a Kingdom proposed by Whittaker. Arrange the following in increasing order of comp lexity of body organization. A. Multicellular heterotrophs with cell wall made of chitin. B. Heterotrophs with tissue/organ/organ system level of body organization. C. Prokaryotes with cell wall made of polysaccharides and amino acids. D. Eukaryotic autotrophs with tissue/organ level of body organization. E. Eukaryotes with cellular body organization. Choose the correct answer from the options given below:",
+    "options": [
+      "A, C, E, B, D",
+      "C, E, A, D, B",
+      "A, C, E, D, B",
+      "C, E, A, B, D"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 133,
+    "subject": "Botany",
+    "stem": "Who is known as the father of Ecology in India?",
+    "options": [
+      "S. R. Kashyap",
+      "Ramdeo Misra",
+      "Ram Udar",
+      "Birbal Sahni"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 134,
+    "subject": "Botany",
+    "stem": "Match List - I with List - II. List - I List - I I A. Alfred Hershey and Martha Chase I. Streptococcus Pneumoniae B. Euchromatin II. Densely packed and dark - stained C. Frederick Griffith III. Loosely packed and light - stained D. Heterochromatin IV. DNA as genetic material confirmation Choose the correct answer from the options given below:",
+    "options": [
+      "A - II, B - IV, C - I, D - III",
+      "A - IV, B - II, C - I, D - III",
+      "A - IV, B - III, C - I, D - II",
+      "A - III, B - II, C - IV, D - I"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 135,
+    "subject": "Botany",
+    "stem": "Neoplastic characteristics of cells refers to: A. A mass of proliferating cell B. Rapid growth of cells C. Invasion and damage to the surrounding tissue D. Those confined to original location Choose the correct answer from the option s given below:",
+    "options": [
+      "A, B only",
+      "A, B, C only",
+      "A, B, D only",
+      "B, C, D only [19]"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 136,
+    "subject": "Zoology",
+    "stem": "Given below are two statements: Statement I: The DNA fragments extracted from gel electrophoresis can be used in construction of recombinant DNA. Statement II: Smaller size DNA fragments are observed near anode while larger fragments are found near the wells in an agarose gel. In the light of the a bove statements, choose the most appropriate answer from the options given below:",
+    "options": [
+      "Both statement I and statement II are correct",
+      "Both statement I and statement II are incorrect",
+      "Statement I is correct but statement II is incorrect",
+      "St atement I is incorrect but statement II is correct"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 137,
+    "subject": "Zoology",
+    "stem": "Match List I with List II. List I List II A. Adenosine I. Nitrogen base B. Adenylic acid II. Nucleotide C. Adenine III. Nucleoside D. Alanine IV. Amino acid Choose the option with all correct matches.",
+    "options": [
+      "A - III, B - IV, C - II, D - I",
+      "A - III, B - II, C - IV, D - I",
+      "A - III, B - II, C - I, D - IV",
+      "A - II, B - III, C - I, D - IV"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 138,
+    "subject": "Zoology",
+    "stem": "Consider the following: A. The reductive division for the human female gametogenesis starts earlier than that of the male gametogenesis. B. The gap between the first meiotic division and the second meiotic division is much shorter for males compared to females. C. The first pola r body is associated with the formation of the primary oocyte. D. Luteinizing Hormone (LH) surge leads to disintegration of the endometrium and onset of menstrual bleeding. Choose the correct answer from the options given below:",
+    "options": [
+      "A and B are true",
+      "A and C are true",
+      "B and D are true",
+      "B and C are true"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 139,
+    "subject": "Zoology",
+    "stem": "All living members of the class Cyclostomata are:",
+    "options": [
+      "Free living",
+      "Endoparasite",
+      "Symbiotic",
+      "Ectoparasite"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 140,
+    "subject": "Zoology",
+    "stem": "Given below are two statements: one is labelled as Assertion (A) and the other is labelled as Reason (R). Assertion (A): The primary function of the Golgi apparatus is to package the materials made by the endoplasmic reticulum and deliver it to intracellular targets and outside the cell. Reason (R): Ve sicles containing materials made by the endoplasmic reticulum fuse with the cis face of the Golgi apparatus, and they are modified and released from the trans face of the Golgi apparatus. In the light of the above statements, choose the correct answer fr om the options given below:",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 141,
+    "subject": "Zoology",
+    "stem": "Match List I with List II. List I List II A. Scutellum I. Persistent nucellus B. Non - albuminous II. Cotyledon of seed Monocot seed C. Epiblast III. Groundnut D. Perisperm IV. Rudimentary cotyledon Choose the option with all correct matches.",
+    "options": [
+      "A - II, B - III, C - IV, D - I",
+      "A - IV, B - III, C - II, D - I",
+      "A - IV, B - III, C - I, D - II",
+      "A - II, B - IV, C - III, D - I"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 142,
+    "subject": "Zoology",
+    "stem": "Given below are two statements: one is labelled as Assertion (A) and the other is labelled as Reason (R). Assertion (A): All vertebrates are chordates but all chordates are not vertebrate. Reason (R): The members of subphylum vertebrata possess notochord, during the embryonic period, the notochord is replaced by a cartilaginous or bony vertebral column in adults. In the light of the ab ove statements, choose the correct answer from the options given below:",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true [20]"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 143,
+    "subject": "Zoology",
+    "stem": "Identify the statement that is NOT correct.",
+    "options": [
+      "Each antibody has two light and two heavy chains.",
+      "The heavy and light chains are held together by disulfide bonds.",
+      "Antigen binding site is located at C - terminal regi on of antibody molecules.",
+      "Constant region of heavy and light chains are located at C - terminus of antibody molecules."
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 144,
+    "subject": "Zoology",
+    "stem": "Silencing of specific mRNA is possible via RNAi because of -",
+    "options": [
+      "Complementary dsRNA",
+      "Inhibitory ssRNA",
+      "Complementary tRNA",
+      "Non - complementary ssRNA"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 145,
+    "subject": "Zoology",
+    "stem": "Genes R and Y follow independent assortment. If RRYY produce round yellow seeds and rryy produce wrinkled green seeds, what will be the phenotypic ratio of the F2 generation?",
+    "options": [
+      "Phenotypic ratio - 1: 2: 1",
+      "Phenotypic ratio - 3: 1",
+      "Phenotypic ratio - 9: 3: 3: 1",
+      "Phenotypic ratio - 9: 7"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 146,
+    "subject": "Zoology",
+    "stem": "Histones are enriched with -",
+    "options": [
+      "Lysine & Arginine",
+      "Leucine & Lysine",
+      "Phenylalanine & Leucine",
+      "Phenylalanine & Arginine"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 147,
+    "subject": "Zoology",
+    "stem": "The first menstruation is called:",
+    "options": [
+      "Menopause",
+      "Menarche",
+      "Diapause",
+      "Ovulation"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 148,
+    "subject": "Zoology",
+    "stem": "Match List - I with List - II. List - I List - II A. Heart I. Erythropoietin B. Kidney II. Aldosterone C. Gastro - intestinal III. Atrial natriuretic tracts factor D. Adrenal Cortex IV. Secretin Choose the correct answer from the options given below:",
+    "options": [
+      "A - II, B - I, C - III, D - IV",
+      "A - IV, B - III, C - II, D - I",
+      "A - I, B - III, C - IV, D - II",
+      "A - III, B - I, C - IV, D - II"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 149,
+    "subject": "Zoology",
+    "stem": "The protein portion of an enzyme is called:",
+    "options": [
+      "Cofactor",
+      "Coenzyme",
+      "Apoenzyme",
+      "Prosthetic group"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 150,
+    "subject": "Zoology",
+    "stem": "Which of the following is the unit of productivity of an Ecosystem?",
+    "options": [
+      "gm – 2",
+      "KCal m – 2",
+      "K C al m – 3",
+      "(KCal m – 2 )yr – 1"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 151,
+    "subject": "Zoology",
+    "stem": "Sweet potato and potato represent a certain type of evolution. Select the correct combination of terms to explain the evolution.",
+    "options": [
+      "Analogy, convergent",
+      "Homology, divergent",
+      "Homology, convergent",
+      "Analogy, divergent"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 152,
+    "subject": "Zoology",
+    "stem": "With the help of given pedigree, find out the probability for the birth of a child having no disease and being a carrier (has the disease mutation in one allele of the gene) in F 3 generation.",
+    "options": [
+      "1/4",
+      "1/2",
+      "1/8",
+      "Zero [21]"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 153,
+    "subject": "Zoology",
+    "stem": "Given below are two statements: one is labelled as Assertion (A) and the other is labelled as Reason (R). Assertion (A): Cells of the tapetum possess dense cytoplasm and generally have more than one nucleus. Reason (R): Presence of more than one nucleus in the tapetum increases the e fficiency of nourishing the developing microspore mother cells. In the light of the above statements, choose the most appropriate answer from the options given below:",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 154,
+    "subject": "Zoology",
+    "stem": "How many meiotic and mitotic divisions need to occur for the development of a mature female gametophyte from the megaspore mother cell i n an angiosperm plant?",
+    "options": [
+      "2 Meiosis and 3 Mitosis",
+      "1 Meiosis and 2 Mitosis",
+      "1 Meiosis and 3 Mitosis",
+      "No Meiosis and 2 Mitosis"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 155,
+    "subject": "Zoology",
+    "stem": "Which of the following is an example of a zygomorphic flower?",
+    "options": [
+      "Petunia",
+      "Datura",
+      "Pea",
+      "Chilli"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 156,
+    "subject": "Zoology",
+    "stem": "After maturation, in primary lymphoid organs, the lymphocytes migrate for interaction with antigens to secondary lymphoid organ(s)/tissue(s) like: A. thymus B. bone marrow C. spleen D. lymph nodes E. Peyer's patches Choose the correct answer from the options given below:",
+    "options": [
+      "B, C, D only",
+      "A, B, C only",
+      "E, A, B only",
+      "C, D, E only"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 157,
+    "subject": "Zoology",
+    "stem": "Given below are two statements: Statement I: Fig fruit is a non - vegetarian fruit as it has enclosed fig wasps in it. Statement II: Fig wasp and fig tree exhibit mutual relationship as fig wasp completes its life cycle in fig fruit and fig fruit gets pollinated by fig wasp. In the light of the above statements, choose the most appropriate answer from the options given below:",
+    "options": [
+      "Both statement I and statement II are correct",
+      "Both statement I and statement II are incorrect",
+      "Statement I is correct but statement II is incorrect",
+      "Statement I is incorrect but statement II is correct"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 158,
+    "subject": "Zoology",
+    "stem": "What is the main function of the spindle fibers during mitosis?",
+    "options": [
+      "To separate the chromosomes",
+      "To synthesize new DNA",
+      "To repair damaged DNA",
+      "To regulate cell growth"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 159,
+    "subject": "Zoology",
+    "stem": "Which one of the following is the characteristic feature of gymnosperms?",
+    "options": [
+      "Seeds are enclosed in fruits.",
+      "Seeds are naked.",
+      "Seeds are absent.",
+      "Gymnosperms have flowers for reproduction."
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 160,
+    "subject": "Zoology",
+    "stem": "Consider the following statements regarding function of adrenal medullary hormones: A. It causes pupilary constriction B. It is a hyperglycemic hormone C. It causes piloerection D. It increases/strength of heart contraction Choose the correct answer from the options given below:",
+    "options": [
+      "C and D Only",
+      "B, C and D Only",
+      "A, C and D Only",
+      "D Only"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 161,
+    "subject": "Zoology",
+    "stem": "Why can’t insulin be given orally to diabetic patients?",
+    "options": [
+      "Human body will elicit strong immune response",
+      "It will be digested in Gastro - Intestinal (GI) tract",
+      "Because of structural variation",
+      "Its bioavailability will be increased [22]"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 162,
+    "subject": "Zoology",
+    "stem": "Match List - I with List - II. List - I List - I I A. Pteridophyte I. Salvia B. Bryophyte II. Ginkgo C. Angiosperm III. Polytrichum D. Gymnosperm IV. Salvinia Choose the option with all correct matches.",
+    "options": [
+      "A - III, B - IV, C - II, D - I",
+      "A - I V, B - I II, C - I, D - II",
+      "A - III, B - IV, C - I, D - II",
+      "A - I V, B - I II, C - II, D - I"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": false
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 163,
+    "subject": "Zoology",
+    "stem": "Who proposed that the genetic code for amino acids should be made up of three nucleotides?",
+    "options": [
+      "George Gamow",
+      "Francis Crick",
+      "Jacque Monod",
+      "Franklin Stahl"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 164,
+    "subject": "Zoology",
+    "stem": "Match List - I with List - II. List - I List - I I A. The Evil Quartet I. Cryopreservation B. Ex situ conservation II. Alien species invasion C. Lantana camara III. Causes of biodiversity losses D. Dodo IV. Extinction Choose the option with all correct matches.",
+    "options": [
+      "A - III, B - II, C - I, D - IV",
+      "A - III, B - I, C - II, D - IV",
+      "A - III, B - IV, C - II, D - I",
+      "A - III, B - II, C - IV, D - I"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 165,
+    "subject": "Zoology",
+    "stem": "Which of the following hormones released from the pituitary is actually synthesized in the hypothalamus?",
+    "options": [
+      "Luteinizing hormone (LH)",
+      "Anti - diuretic hormone (ADH)",
+      "Follicle - stimulating hormone (FSH)",
+      "Adenocorticotrophic hormone (ACTH)"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 166,
+    "subject": "Zoology",
+    "stem": "Role of the water vascular system in Echinoderms is: A. Respiration and Locomotion B. E xcretion and Locomotion C. Capture and transport of food D. Digestion and Respi ration E. D igestion and Excretion Choose the correct answer from the options given below:",
+    "options": [
+      "A and B Only",
+      "A and C Only",
+      "B and C Only",
+      "B, D and E Only"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 167,
+    "subject": "Zoology",
+    "stem": "Which of the following type of immunity is present at the time of birth and is a non - specific type of defence in the human body?",
+    "options": [
+      "Acquired Immunity",
+      "Innate Immunity",
+      "Cell - mediated Immunity",
+      "Humoral Immunity"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 168,
+    "subject": "Zoology",
+    "stem": "In bryophytes, the gemmae h elp in which one of the following?",
+    "options": [
+      "Sexual reproduction",
+      "Asexual reproduction",
+      "Nutrient absorption",
+      "Gaseous exchange"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 169,
+    "subject": "Zoology",
+    "stem": "In frog, the Renal portal system is a special venous connection that acts to link:",
+    "options": [
+      "Liver and intestine",
+      "Liv er and kidney",
+      "Kidney and intestine",
+      "Kidney and lower part of body"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 170,
+    "subject": "Zoology",
+    "stem": "Given below are two statements: Statement I: In ecosystem, there is unidirectional flow of energy of sun from producers to consumers. Statement II: Ecosystems are exempted from 2 nd law of thermodynamics. In the light of the above statements, choose the most appropriate answer from the options given below:",
+    "options": [
+      "Both Statement I and Statement II are correct",
+      "Both Statement I and Statement II are i ncorrect",
+      "Statement I is correct but Statement II is incorrect",
+      "Statement I is incorrect but Statement II is correct [23]"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 171,
+    "subject": "Zoology",
+    "stem": "Which of the following statements about RuBisCO is true?",
+    "options": [
+      "It is active only in the dark.",
+      "It has higher affinity for o xygen than carbon dioxide.",
+      "It is an enzyme involved in the photolysis of water.",
+      "It catalyzes the carboxylation of RuBP."
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 172,
+    "subject": "Zoology",
+    "stem": "Which of the following enzyme(s) are NOT essential for gene cloning? A. Restriction enzymes B. DNA ligase C. DNA mutase D. DNA recombinase E. DNA polymerase Choose the correct answer f rom the options given below:",
+    "options": [
+      "C and D only",
+      "A and B only",
+      "D and E only",
+      "B and C only"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 173,
+    "subject": "Zoology",
+    "stem": "Read the following statements on plant growth and development. A. Parthe nocarpy can be induced by auxins. B. Plant growth regulators can be involved in promotion as well as inhibition of growth. C. Dedifferentiation is a pre - requisite for re - differentiation. D. Abscisic acid is a plant growth promoter. E. Apical dominance promotes the growth of lateral buds. Choose the option with all correct statements.",
+    "options": [
+      "A, B, C only",
+      "A, C, E o nly",
+      "A, D, E only",
+      "B, D, E only"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 174,
+    "subject": "Zoology",
+    "stem": "Which factor is important for termination of transcription?",
+    "options": [
+      " (alpha)",
+      " (sigma)",
+      " (rho)",
+      " (gamma)"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 175,
+    "subject": "Zoology",
+    "stem": "Frogs respire in water b y skin and buccal cavity and on land by skin, buccal cavity and lungs. Ch oose the correct answer from the following:",
+    "options": [
+      "The statement is true for water but false for land",
+      "The statement is true for both the environment",
+      "The statement is false for water but true for land",
+      "The statement is false for both the environment"
+    ],
+    "correctIndex": 2,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 176,
+    "subject": "Zoology",
+    "stem": "Twins are born to a family that lives next door to you. The twins are a boy and a girl. Which of the following must be true?",
+    "options": [
+      "They are monozygotic twins.",
+      "They are fraternal twins.",
+      "They were conceived through in vitro fertilization.",
+      "They have 75% identical genetic content."
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 177,
+    "subject": "Zoology",
+    "stem": "Which of the following microbes is NOT involved in the preparation o f household products? A. Aspergillus niger B. Lactobacillus C. Trichoderma polysporum D. Saccharomyces cerevisiae E. Propionibacterium sharmanii Choose the correct answer f rom the options given below:",
+    "options": [
+      "A and B only",
+      "A and C only",
+      "C and D only",
+      "C and E only"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 178,
+    "subject": "Zoology",
+    "stem": "Match List - I with List - II. List - I List - I I A. Progesterone I. Pars intermedia B. Relaxin II. Ovary C. Melanocyte stimulating hormone III. Adrenal Medulla D. Catecholamines IV. Corpus luteum Choose the correct answer from the options given below:",
+    "options": [
+      "A - IV, B - II, C - I, D - III",
+      "A - IV, B - II, C - III, D - I",
+      "A - II, B - IV, C - I, D - III",
+      "A - III, B - II, C - IV, D - I [24]"
+    ],
+    "correctIndex": 0,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 179,
+    "subject": "Zoology",
+    "stem": "The blue and white s electable markers have been developed which differentiate recombinant colonies from non - recombinant colonies on the basis of their ability to produce colour in the presence of a chromogenic substrate. Given below are two statements about this method: Sta tement I: The blue coloured colonies have DNA insert in the plasmid and they are identified as recombinant colonies. Statement I I: The colonies without blue colour have DNA insert in the plasmid and are identified as recombinant colonies. In the light of the above statements, choose the most appropriate answer from the options given below:",
+    "options": [
+      "Both Statement I and Statement II are correct",
+      "Both Statement I and Statement II are incorrect",
+      "Statement I is correct but Statement II is i ncorrect",
+      "Statement I is incorrect but Statement II is correct"
+    ],
+    "correctIndex": 3,
+    "isDiagram": false,
+    "clean": true
+  },
+  {
+    "source": "pyq-2025",
+    "year": 2025,
+    "number": 180,
+    "subject": "Zoology",
+    "stem": "Which one of the following equations represents the Verhulst - Pearl Logistic Growth of population?",
+    "options": [
+      "–        dN K N r dt K",
+      "–        dN K N rN dt K",
+      "–        dN N K rN dt N",
+      "–        dN r K N dt K ■■■ PW Web/App - https://smart.link/7wwosivoicgd4 Library - https:/mart.link/sdfez8ejd80if [25]"
+    ],
+    "correctIndex": 1,
+    "isDiagram": false,
+    "clean": true
+  }
+]

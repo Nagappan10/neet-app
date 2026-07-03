@@ -22,6 +22,19 @@ export interface ChapterAnalysis {
   insights: string[];
 }
 
+export interface Question {
+  id: string;
+  stem: string;
+  options: string[];
+  correctIndex: number;
+  explanation: string | null;
+  difficulty: "easy" | "medium" | "hard";
+  type: "mcq" | "assertion_reason" | "diagram" | "statement_match";
+  isDiagram: boolean;
+  source: string;
+  subject: { id: string; name: string };
+}
+
 export interface Chapter {
   id: string;
   title: string;

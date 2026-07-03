@@ -84,7 +84,7 @@ model Question {
   stem            String // markdown + KaTeX
   options         String[] // exactly 4, enforced by validators
   correctIndex    Int
-  explanation     String
+  explanation     String? // null for PYQ until the agent (M3) generates one
   difficulty      Difficulty
   type            QuestionType
   isDiagram       Boolean      @default(false)

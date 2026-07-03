@@ -37,6 +37,8 @@ cp .env.example .env             # then edit JWT_SECRET (openssl rand -hex 32)
 npm install
 npm run db:migrate               # applies Prisma migrations
 npm run db:seed                  # seeds the four subjects
+npm run db:load-chapters --workspace server   # loads the 81-chapter syllabus
+npm run db:load-questions --workspace server  # loads the verified PYQ bank
 
 # 4. Run (API on :4000, web on :5173, /api proxied automatically)
 npm run dev
@@ -66,8 +68,8 @@ commit it, never paste keys into chat or logs. `AI_PROVIDER` / `AI_MODEL` /
 | --- | --- | --- |
 | M0 | Scaffold, design tokens, docker-compose, Prisma schema + migrations | ✅ done |
 | M1 | Auth (register/login/refresh/logout, protected routes) | ✅ done |
-| M2 | Ingestion: NTA syllabus, PYQ bank, chapter weighting | ⏳ **blocked — add the SPEC §7 PDFs to `/reference`** |
-| M3 | Content agent + validators + caching | pending |
+| M2 | Ingestion: 81-chapter syllabus + weighting, verified PYQ bank | ✅ done |
+| M3 | Content agent + validators + caching | ⏳ **needs `AI_API_KEY` in `.env`** |
 | M4 | Question bank + diagram bank | pending |
 | M5 | Exam engine | pending |
 | M6 | Shortnotes / flowcharts / flashcards tabs | pending |
