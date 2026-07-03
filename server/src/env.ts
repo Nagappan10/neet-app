@@ -1,4 +1,13 @@
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+import dotenv from "dotenv";
 import { z } from "zod";
+
+// Load the repo-root .env (works from src/ in dev and dist/ in prod), then any
+// local one. Real environment variables always win — dotenv never overrides.
+const dirname = path.dirname(fileURLToPath(import.meta.url));
+dotenv.config({ path: path.resolve(dirname, "../../.env") });
+dotenv.config();
 
 const schema = z.object({
   DATABASE_URL: z.string().min(1),
