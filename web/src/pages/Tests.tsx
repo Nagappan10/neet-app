@@ -55,6 +55,10 @@ export function TestsPage(): JSX.Element {
   );
 }
 
+// NEET UG: 45 questions per subject, 180 total, 720 marks, 180 minutes (2025 pattern).
+const MOCK_PER_SUBJECT = 45;
+const MOCK_DEFAULT_MIN = 180;
+
 function TestBuilder({ onStart }: { onStart: (t: BuiltTest) => void }): JSX.Element {
   const qc = useQueryClient();
   const { data: subjectsData } = useQuery({
@@ -64,6 +68,10 @@ function TestBuilder({ onStart }: { onStart: (t: BuiltTest) => void }): JSX.Elem
   const { data: agentStatus } = useQuery({
     queryKey: ["agent-status"],
     queryFn: () => api<{ configured: boolean }>("/api/agent/status"),
+  });
+  const { data: stats } = useQuery({
+    queryKey: ["bank-stats"],
+    queryFn: () => api<{ total: number; bySubject: Record<string, number> }>("/api/questions/stats"),
   });
   const subjects = subjectsData?.subjects ?? [];
 
@@ -75,6 +83,30 @@ function TestBuilder({ onStart }: { onStart: (t: BuiltTest) => void }): JSX.Elem
   const [busy, setBusy] = useState(false);
   const [genMsg, setGenMsg] = useState<string | null>(null);
   const [genBusy, setGenBusy] = useState(false);
+  const [mockMinutes, setMockMinutes] = useState(MOCK_DEFAULT_MIN);
+  const [mockBusy, setMockBusy] = useState(false);
+
+  async function startMock(): Promise<void> {
+    setError(null);
+    setMockBusy(true);
+    try {
+      const sections = subjects.map((s) => ({ subjectId: s.id, count: MOCK_PER_SUBJECT }));
+      const t = await api<BuiltTest>("/api/tests/build", {
+        method: "POST",
+        body: JSON.stringify({
+          mode: "full_mock",
+          name: "Full NEET Mock",
+          sections,
+          durationSec: mockMinutes * 60,
+        }),
+      });
+      onStart(t);
+    } catch (err) {
+      setError(err instanceof ApiError ? err.message : "Could not build the mock");
+    } finally {
+      setMockBusy(false);
+    }
+  }
 
   const { data: chaptersData } = useQuery({
     queryKey: ["chapters", subjectId],
@@ -125,12 +157,63 @@ function TestBuilder({ onStart }: { onStart: (t: BuiltTest) => void }): JSX.Elem
       <header>
         <h1 className="text-2xl font-semibold tracking-tight">Tests</h1>
         <p className="mt-2 max-w-2xl text-sm leading-relaxed text-muted">
-          Build a timed test from any subject or chapter. Duration is fully yours — pick a preset or
-          type any number of minutes. Marking is NEET-standard: +4 correct, −1 wrong, 0 skipped.
+          Build a timed test from any subject or chapter, or sit the full mock. Duration is fully
+          yours — pick a preset or type any minutes. Marking is NEET-standard: +4 correct, −1 wrong,
+          0 skipped.
         </p>
       </header>
 
+      {/* Flagship: the real NEET sitting. */}
+      <div className="rounded-xl border border-accent/40 bg-accent/5 p-6">
+        <div className="flex flex-wrap items-start justify-between gap-4">
+          <div>
+            <h2 className="font-display text-lg font-semibold">Full NEET Mock</h2>
+            <p className="mt-1 text-sm text-muted">
+              180 questions · 720 marks · 45 each from Physics, Chemistry, Botany, Zoology.
+            </p>
+            <p className="mt-3 flex flex-wrap gap-x-4 gap-y-1 font-mono text-xs text-muted">
+              {subjects.map((s) => {
+                const have = stats?.bySubject[s.id] ?? 0;
+                const ready = have >= MOCK_PER_SUBJECT;
+                return (
+                  <span key={s.id} className={ready ? "text-accent" : ""}>
+                    {s.name}: {Math.min(have, MOCK_PER_SUBJECT)}/{MOCK_PER_SUBJECT}
+                  </span>
+                );
+              })}
+            </p>
+          </div>
+          <div className="flex items-end gap-3">
+            <label className="block">
+              <span className="mb-1.5 block text-xs text-muted">Minutes</span>
+              <input
+                type="number"
+                min={1}
+                value={mockMinutes}
+                onChange={(e) => setMockMinutes(Math.max(1, Number(e.target.value)))}
+                className="w-20 rounded-md border border-hairline bg-bg px-2 py-2 font-mono text-sm text-ink outline-none focus:border-accent"
+              />
+            </label>
+            <button
+              onClick={() => void startMock()}
+              disabled={mockBusy || subjects.length === 0}
+              className="rounded-md bg-accent px-5 py-2.5 font-medium text-accent-ink hover:opacity-90 disabled:opacity-50"
+            >
+              {mockBusy ? "Building…" : "Start Full Mock"}
+            </button>
+          </div>
+        </div>
+        <p className="mt-3 text-xs text-muted/70">
+          Uses however many validated questions are in the bank. For the true 180-question sitting,
+          fill each chapter to 45 with the batch generator (see README) — the counts above turn
+          green as subjects fill up.
+        </p>
+      </div>
+
       <div className="rounded-xl border border-hairline bg-surface p-6">
+        <h2 className="mb-4 text-sm font-medium uppercase tracking-widest text-muted">
+          Custom test
+        </h2>
         <div className="grid gap-5 sm:grid-cols-2">
           <label className="block">
             <span className="mb-1.5 block text-sm text-muted">Subject</span>

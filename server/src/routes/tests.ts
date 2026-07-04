@@ -12,59 +12,90 @@ testsRouter.use(requireAuth);
 const MARK_CORRECT = 4;
 const MARK_WRONG = -1;
 
+const sectionSchema = z.object({
+  subjectId: z.string(),
+  count: z.coerce.number().int().min(1).max(90),
+});
+
 const buildSchema = z.object({
   name: z.string().trim().min(1).max(80).optional(),
+  mode: z.enum(["custom", "full_mock"]).default("custom"),
   subjectId: z.string().optional(),
   chapterIds: z.array(z.string()).optional(),
+  // Full NEET Mock: N questions per subject, kept in the given (NEET) order.
+  sections: z.array(sectionSchema).max(4).optional(),
   count: z.coerce.number().int().min(1).max(180).default(10),
   difficulty: z.enum(["easy", "medium", "hard"]).optional(),
   durationSec: z.coerce.number().int().min(60).max(4 * 60 * 60),
 });
+
+/** Sample up to `count` distinct question ids matching `where`, in random order. */
+async function sampleIds(where: Prisma.QuestionWhereInput, count: number): Promise<string[]> {
+  const pool = await prisma.question.count({ where });
+  if (pool === 0) return [];
+  const offsets = sampleOffsets(pool, Math.min(count, pool));
+  const ids: string[] = [];
+  for (const off of offsets) {
+    const row = await prisma.question.findMany({
+      where,
+      select: { id: true },
+      orderBy: { id: "asc" },
+      skip: off,
+      take: 1,
+    });
+    if (row[0]) ids.push(row[0].id);
+  }
+  return ids;
+}
 
 /** Build a test: pick validated questions, create a template + started attempt. */
 testsRouter.post("/build", async (req, res, next) => {
   try {
     const parsed = buildSchema.safeParse(req.body);
     if (!parsed.success) throw new HttpError(400, parsed.error.issues[0]?.message ?? "Invalid input");
-    const { name, subjectId, chapterIds, count, difficulty, durationSec } = parsed.data;
+    const { name, mode, subjectId, chapterIds, sections, count, difficulty, durationSec } =
+      parsed.data;
 
-    const where: Prisma.QuestionWhereInput = {
-      validated: true,
-      ...(subjectId ? { subjectId } : {}),
-      ...(chapterIds && chapterIds.length
-        ? { chapters: { some: { chapterId: { in: chapterIds } } } }
-        : {}),
-      ...(difficulty ? { difficulty } : {}),
-    };
+    let ids: string[] = [];
+    let requested: number;
 
-    const poolSize = await prisma.question.count({ where });
-    if (poolSize === 0) {
+    if (sections && sections.length) {
+      // Full mock / multi-section: sample per subject, preserve section order.
+      requested = sections.reduce((s, sec) => s + sec.count, 0);
+      for (const sec of sections) {
+        const secIds = await sampleIds(
+          { validated: true, subjectId: sec.subjectId, ...(difficulty ? { difficulty } : {}) },
+          sec.count,
+        );
+        ids.push(...secIds);
+      }
+    } else {
+      requested = count;
+      ids = await sampleIds(
+        {
+          validated: true,
+          ...(subjectId ? { subjectId } : {}),
+          ...(chapterIds && chapterIds.length
+            ? { chapters: { some: { chapterId: { in: chapterIds } } } }
+            : {}),
+          ...(difficulty ? { difficulty } : {}),
+        },
+        count,
+      );
+    }
+
+    if (ids.length === 0) {
       throw new HttpError(
         409,
         "No questions match that selection yet. Generate some for this chapter first.",
       );
     }
 
-    // Random selection without loading the whole pool: sample distinct offsets.
-    const take = Math.min(count, poolSize);
-    const offsets = sampleOffsets(poolSize, take);
-    const ids: string[] = [];
-    for (const off of offsets) {
-      const row = await prisma.question.findMany({
-        where,
-        select: { id: true },
-        orderBy: { id: "asc" },
-        skip: off,
-        take: 1,
-      });
-      if (row[0]) ids.push(row[0].id);
-    }
-
     const template = await prisma.testTemplate.create({
       data: {
-        name: name ?? "Practice test",
-        mode: "custom",
-        config: { subjectId, chapterIds, count: ids.length, difficulty, durationSec },
+        name: name ?? (mode === "full_mock" ? "Full NEET Mock" : "Practice test"),
+        mode,
+        config: { subjectId, chapterIds, sections, count: ids.length, difficulty, durationSec },
       },
     });
 
@@ -89,14 +120,15 @@ testsRouter.post("/build", async (req, res, next) => {
         subject: { select: { name: true } },
       },
     });
-    // Preserve the sampled order.
     const byId = new Map(questions.map((q) => [q.id, q]));
     const ordered = ids.map((id) => byId.get(id)).filter(Boolean);
 
     res.status(201).json({
       attemptId: attempt.id,
       name: template.name,
+      mode,
       durationSec,
+      requested, // so the client can flag a short bank
       questions: ordered,
     });
   } catch (err) {

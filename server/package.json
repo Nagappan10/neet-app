@@ -13,7 +13,8 @@
     "db:generate": "prisma generate",
     "db:seed": "dotenv -e ../.env -- tsx prisma/seed.ts",
     "db:load-chapters": "dotenv -e ../.env -- tsx prisma/loadChapters.ts",
-    "db:load-questions": "dotenv -e ../.env -- tsx prisma/loadQuestions.ts"
+    "db:load-questions": "dotenv -e ../.env -- tsx prisma/loadQuestions.ts",
+    "generate:bank": "dotenv -e ../.env -- tsx src/scripts/generateBank.ts"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"

@@ -46,6 +46,33 @@ npm run dev
 
 Open http://localhost:5173, register a username + password, and you're in.
 
+## Fill the bank to 45+ questions per chapter (AI generation)
+
+The **Full NEET Mock** (180 questions, 45 per subject) and per-chapter practice
+are best once every chapter has ~45 validated questions. With a Gemini key in
+`.env` (`AI_PROVIDER="gemini"`, `AI_MODEL="gemini-2.0-flash"`, `AI_API_KEY="…"`),
+run the batch generator:
+
+```bash
+# from /server — top every NTA-2026 chapter up to 45 validated questions
+npm run generate:bank --workspace server
+
+# useful flags:
+npm run generate:bank --workspace server -- --target 45 --rpm 12 --batch 8
+npm run generate:bank --workspace server -- --subject Physics      # one subject
+npm run generate:bank --workspace server -- --max 200              # cap this run
+```
+
+It's **resumable** (re-run any time — it only tops up the gap), **rate-limited**
+(survives free-tier limits; backs off on 429), and processes chapters by exam
+weighting (most-tested first). Every question passes the same two-stage
+validation as on-demand generation, so only verified questions enter the bank.
+
+> **Free-tier note:** Gemini's free tier is rate-limited, so filling all 81
+> chapters to 45 takes several runs across a day or two. Use `--max` to chunk it,
+> or start with `--subject` / high-weight chapters. Each chapter's live count is
+> shown on the Full NEET Mock card and in the Tests builder.
+
 ## Run the whole thing with Docker
 
 ```bash
@@ -69,9 +96,10 @@ commit it, never paste keys into chat or logs. `AI_PROVIDER` / `AI_MODEL` /
 | M0 | Scaffold, design tokens, docker-compose, Prisma schema + migrations | ✅ done |
 | M1 | Auth (register/login/refresh/logout, protected routes) | ✅ done |
 | M2 | Ingestion: 81-chapter syllabus + weighting, verified PYQ bank | ✅ done |
-| M3 | Content agent + validators + caching | ⏳ **needs `AI_API_KEY` in `.env`** |
-| M4 | Question bank + diagram bank | pending |
-| M5 | Exam engine | pending |
+| M3 | Content agent (Gemini/Claude/OpenAI), validators, caching | ✅ done · add `AI_API_KEY` to use |
+| M4 | Question bank browse + practice | ✅ done (diagram bank pending) |
+| M5 | Exam engine: builder, Full NEET Mock, Web-Worker timer, scorecard | ✅ done |
+| M8 | Batch pre-generation (`generate:bank`) to 45+/chapter | ✅ tool ready |
 | M6 | Shortnotes / flowcharts / flashcards tabs | pending |
 | M7 | Progress + rankboard | pending |
 | M8 | Batch pre-generation + polish | pending |
