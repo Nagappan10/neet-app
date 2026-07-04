@@ -35,6 +35,59 @@ export interface Question {
   subject: { id: string; name: string };
 }
 
+export interface TestQuestion {
+  id: string;
+  stem: string;
+  options: string[];
+  type: string;
+  isDiagram: boolean;
+  subject: { name: string };
+}
+
+export interface BuiltTest {
+  attemptId: string;
+  name: string;
+  durationSec: number;
+  questions: TestQuestion[];
+}
+
+export interface Scorecard {
+  attemptId: string;
+  score: number;
+  correct: number;
+  wrong: number;
+  unattempted: number;
+  total: number;
+  maxScore: number;
+  sectionBreakdown: Record<
+    string,
+    { correct: number; wrong: number; unattempted: number; score: number }
+  >;
+}
+
+export interface AttemptSummary {
+  id: string;
+  name: string;
+  mode: string;
+  submittedAt: string;
+  score: number;
+  correct: number;
+  wrong: number;
+  unattempted: number;
+  total: number;
+}
+
+export interface ReviewItem {
+  id: string;
+  stem: string;
+  options: string[];
+  correctIndex: number;
+  explanation: string | null;
+  source: string;
+  subject: { name: string };
+  chosenIndex: number | null;
+}
+
 export interface Chapter {
   id: string;
   title: string;

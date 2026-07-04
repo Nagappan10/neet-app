@@ -16,7 +16,7 @@ interface MeResponse {
 const MODULES: { name: string; milestone: string; ready: boolean; to?: string }[] = [
   { name: "Syllabus & weighting", milestone: "M2", ready: true, to: "/syllabus" },
   { name: "Question bank (PYQ)", milestone: "M2", ready: true, to: "/bank" },
-  { name: "Exam engine", milestone: "M5", ready: false },
+  { name: "Test engine + AI generation", milestone: "M3+M5", ready: true, to: "/tests" },
   { name: "Shortnotes", milestone: "M6", ready: false },
   { name: "Flowcharts", milestone: "M6", ready: false },
   { name: "Flashcards", milestone: "M6", ready: false },

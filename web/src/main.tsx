@@ -6,6 +6,7 @@ import "@fontsource-variable/space-grotesk";
 import "@fontsource-variable/inter";
 import "@fontsource-variable/jetbrains-mono";
 import "./styles/index.css";
+import "./lib/themeStore"; // applies saved theme before first paint
 import { App } from "./App";
 
 const queryClient = new QueryClient({

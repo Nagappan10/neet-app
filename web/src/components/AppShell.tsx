@@ -2,11 +2,13 @@ import type { ReactNode } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import { logout } from "../lib/api";
 import { useAuthStore } from "../lib/authStore";
+import { useThemeStore } from "../lib/themeStore";
 
 const NAV: { to: string; label: string }[] = [
   { to: "/", label: "Overview" },
   { to: "/syllabus", label: "Syllabus" },
   { to: "/bank", label: "Question bank" },
+  { to: "/tests", label: "Tests" },
 ];
 
 export function AppShell({ children }: { children: ReactNode }): JSX.Element {
@@ -43,7 +45,8 @@ export function AppShell({ children }: { children: ReactNode }): JSX.Element {
               ))}
             </nav>
           </div>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-3">
+            <ThemeToggle />
             <span className="hidden text-sm text-muted sm:inline">{user?.displayName}</span>
             <button
               onClick={() => void handleLogout()}
@@ -56,5 +59,19 @@ export function AppShell({ children }: { children: ReactNode }): JSX.Element {
       </header>
       <main className="mx-auto max-w-5xl px-4 py-10 sm:px-6">{children}</main>
     </div>
+  );
+}
+
+function ThemeToggle(): JSX.Element {
+  const { theme, toggle } = useThemeStore();
+  return (
+    <button
+      onClick={toggle}
+      aria-label={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}
+      title={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}
+      className="rounded-md border border-hairline px-2.5 py-1.5 text-sm text-muted transition-colors duration-200 hover:border-muted hover:text-ink"
+    >
+      {theme === "dark" ? "☾" : "☀"}
+    </button>
   );
 }

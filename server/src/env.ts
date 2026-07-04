@@ -17,6 +17,12 @@ const schema = z.object({
   PORT: z.coerce.number().int().positive().default(4000),
   NODE_ENV: z.enum(["development", "test", "production"]).default("development"),
   CORS_ORIGIN: z.string().default("http://localhost:5173"),
+  // AI engine — provider-agnostic. Swapping providers is env-only.
+  AI_PROVIDER: z.enum(["gemini", "anthropic", "openai-compatible"]).default("gemini"),
+  AI_MODEL: z.string().default("gemini-2.0-flash"),
+  AI_API_KEY: z.string().default(""),
+  // openai-compatible only: base URL of the endpoint
+  AI_BASE_URL: z.string().default("https://api.openai.com/v1"),
 });
 
 const parsed = schema.safeParse(process.env);

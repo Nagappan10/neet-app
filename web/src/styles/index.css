@@ -22,11 +22,29 @@
   --ease-standard: cubic-bezier(0.2, 0, 0, 1);
 }
 
+/* Light theme: the same token names, retuned for a bright editorial look.
+   Toggled by the `.light` class on <html> (see themeStore). */
+:root.light {
+  --color-bg: #f7f8fa;
+  --color-surface: #ffffff;
+  --color-surface-raised: #f0f2f5;
+  --color-ink: #171a1f;
+  --color-muted: #5c6470;
+  --color-hairline: #e2e6ec;
+  --color-accent: #059669;
+  --color-accent-ink: #ffffff;
+  --color-data: #0284c7;
+  --color-danger: #dc2626;
+}
+
 html {
   background-color: var(--color-bg);
   color: var(--color-ink);
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
+  transition:
+    background-color 200ms var(--ease-standard),
+    color 200ms var(--ease-standard);
 }
 
 h1,

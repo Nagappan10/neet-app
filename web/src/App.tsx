@@ -7,6 +7,7 @@ import { RegisterPage } from "./pages/Register";
 import { DashboardPage } from "./pages/Dashboard";
 import { SyllabusPage } from "./pages/Syllabus";
 import { QuestionBankPage } from "./pages/QuestionBank";
+import { TestsPage } from "./pages/Tests";
 import { AppShell } from "./components/AppShell";
 
 function useBootstrap(): boolean {
@@ -58,6 +59,7 @@ export function App(): JSX.Element {
         <Route path="/" element={<DashboardPage />} />
         <Route path="/syllabus" element={<SyllabusPage />} />
         <Route path="/bank" element={<QuestionBankPage />} />
+        <Route path="/tests" element={<TestsPage />} />
       </Route>
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
