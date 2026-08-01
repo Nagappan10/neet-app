@@ -79,7 +79,9 @@ walkingRouter.put(
     const parsed = dailyStepsSchema.safeParse({
       ...req.body,
       day: req.params.day,
-      id: req.body?.id ?? `${req.userId}:${req.params.day}`,
+      // Matches the deterministic id the app generates, so a REST write and a
+      // synced write for the same day converge on one row.
+      id: req.body?.id ?? `day:${req.params.day}`,
       updated_at: req.body?.updated_at ?? Date.now(),
     });
     if (!parsed.success) {
