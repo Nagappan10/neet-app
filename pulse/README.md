@@ -12,6 +12,48 @@ pulse/
 
 ---
 
+## Getting it onto a phone
+
+### Android — download a prebuilt APK (no toolchain needed)
+
+The **Build Pulse APK** GitHub Action compiles a sideloadable APK on GitHub's
+runners, which already have the Android SDK and NDK.
+
+1. Repo → **Actions** → **Build Pulse APK** → **Run workflow**
+   (it also runs automatically on pushes that touch `pulse/app/`).
+2. Open the finished run and download the **`pulse-apk`** artifact.
+3. Unzip it, copy `app-release.apk` to the phone, and open it. Android will ask
+   you to allow installing from that source — this is expected for any app not
+   coming from the Play Store.
+
+The APK is signed with Expo's generated debug keystore. That is fine for
+sideloading onto your own device, but **not** valid for Play Store upload —
+that needs a real upload key.
+
+### Android — build it yourself
+
+Requires Android Studio with the SDK **and NDK** installed:
+
+```bash
+cd pulse/app
+npm install
+npx expo run:android --variant release   # installs straight onto a connected phone
+```
+
+### iOS
+
+There is no way around Apple's toolchain here: an `.ipa` can only be produced
+on **macOS with Xcode**, and installing it requires a signing identity — a free
+Apple ID works for a 7-day build, a paid Developer account for a year.
+
+```bash
+cd pulse/app
+npm install
+npx expo run:ios --device        # select your iPhone; Xcode handles signing
+```
+
+---
+
 ## Requirements
 
 | Tool | Version |
