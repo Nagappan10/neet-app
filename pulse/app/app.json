@@ -14,12 +14,14 @@
       "infoPlist": {
         "NSMotionUsageDescription": "Pulse uses the motion sensor to count your steps accurately during walks and throughout the day.",
         "NSHealthShareUsageDescription": "Pulse reads step data to show your daily activity.",
-        "UIBackgroundModes": ["fetch", "processing"]
+        "UIBackgroundModes": [
+          "fetch",
+          "processing"
+        ]
       }
     },
     "android": {
       "package": "com.pulse.tracker",
-      "edgeToEdgeEnabled": true,
       "adaptiveIcon": {
         "backgroundColor": "#0A0A0C"
       },
@@ -48,7 +50,9 @@
         "expo-splash-screen",
         {
           "backgroundColor": "#0A0A0C",
-          "dark": { "backgroundColor": "#0A0A0C" },
+          "dark": {
+            "backgroundColor": "#0A0A0C"
+          },
           "resizeMode": "contain"
         }
       ]

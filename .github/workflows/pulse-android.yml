@@ -1,0 +1,90 @@
+name: Build Pulse APK
+
+# Produces a sideloadable Android APK and attaches it to the run as a
+# downloadable artifact. GitHub's Ubuntu runners ship the Android SDK, NDK and
+# build-tools preinstalled, which is what makes this work without any local
+# toolchain setup.
+#
+# Run it from the Actions tab ("Run workflow"), then download "pulse-apk" from
+# the finished run's Artifacts section.
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [claude/pulse-fitness-app-8pbmjk]
+    paths:
+      - 'pulse/app/**'
+      - '.github/workflows/pulse-android.yml'
+
+jobs:
+  build:
+    name: Assemble release APK
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    defaults:
+      run:
+        working-directory: pulse/app
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: pulse/app/package-lock.json
+
+      - name: Set up JDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      # The android/ directory is generated, not committed, so it is rebuilt
+      # from app.json on every run.
+      - name: Generate native Android project
+        run: npx expo prebuild --platform android --no-install
+
+      - name: Cache Gradle
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+          key: gradle-${{ runner.os }}-${{ hashFiles('pulse/app/android/**/*.gradle*', 'pulse/app/android/gradle/wrapper/gradle-wrapper.properties') }}
+          restore-keys: gradle-${{ runner.os }}-
+
+      # Release builds are signed with the debug keystore Expo generates, which
+      # is enough to sideload. It is NOT suitable for Play Store distribution —
+      # that needs a real upload key.
+      - name: Build release APK
+        working-directory: pulse/app/android
+        run: |
+          chmod +x ./gradlew
+          ./gradlew assembleRelease \
+            --no-daemon \
+            -PreactNativeArchitectures=arm64-v8a,armeabi-v7a
+
+      - name: Report APK size
+        working-directory: pulse/app/android
+        run: ls -lh app/build/outputs/apk/release/*.apk
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: pulse-apk
+          path: pulse/app/android/app/build/outputs/apk/release/*.apk
+          if-no-files-found: error
+          retention-days: 30
