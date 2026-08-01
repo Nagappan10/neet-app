@@ -1,5 +1,5 @@
 import { Ionicons } from '@expo/vector-icons';
-import { useKeepAwake } from 'expo-keep-awake';
+import { activateKeepAwakeAsync, deactivateKeepAwake } from 'expo-keep-awake';
 import { useRouter } from 'expo-router';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
@@ -27,6 +27,8 @@ import { spacing, type, usePalette, withAlpha } from '@/theme';
 import { spring } from '@/theme/motion';
 import { formatDistance, formatDuration, formatDurationShort } from '@/utils/format';
 
+const KEEP_AWAKE_TAG = 'pulse-session';
+
 export default function WalkScreen() {
   const palette = usePalette();
   const router = useRouter();
@@ -35,16 +37,27 @@ export default function WalkScreen() {
     useStepsStore();
   const { dailyGoal, strideLength, weightKg } = useSettingsStore();
   const session = useSessionStore();
+  const configure = useSessionStore((s) => s.configure);
 
   const gradient: [string, string] = [palette.walkFrom, palette.walkTo];
 
   // Keep the screen on during a session — a walk tracker that sleeps mid-walk
   // is useless, and the OS would otherwise dim after 30 seconds of no touches.
-  useKeepAwake(session.status === 'active' ? 'pulse-session' : undefined);
-
+  // `useKeepAwake` holds the lock for the component's whole lifetime, so the
+  // lock has to be taken and released explicitly as the session starts and stops.
   useEffect(() => {
-    session.configure({ strideLength, weightKg });
-  }, [session, strideLength, weightKg]);
+    if (session.status !== 'active') return;
+    void activateKeepAwakeAsync(KEEP_AWAKE_TAG);
+    return () => {
+      deactivateKeepAwake(KEEP_AWAKE_TAG).catch(() => undefined);
+    };
+  }, [session.status]);
+
+  // `configure` is a stable store action, so this runs only when the user
+  // actually changes their stride or weight — not on every session tick.
+  useEffect(() => {
+    configure({ strideLength, weightKg });
+  }, [configure, strideLength, weightKg]);
 
   // Ambient daily counting runs for as long as this screen is mounted.
   useEffect(() => {

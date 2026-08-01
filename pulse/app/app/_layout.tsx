@@ -8,6 +8,7 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { MeshBackground } from '@/components/MeshBackground';
 import { getDb } from '@/db/client';
 import { registerBackgroundTask } from '@/services/background';
+import { useSyncTriggers } from '@/services/useSyncTriggers';
 import { ThemeProvider, useTheme } from '@/theme';
 import { useSettingsStore } from '@/store/useSettingsStore';
 import { useStepsStore } from '@/store/useStepsStore';
@@ -30,6 +31,9 @@ function AppShell() {
   const { isDark } = useTheme();
   const hydrated = useSettingsStore((s) => s.hydrated);
   const initialise = useStepsStore((s) => s.initialise);
+
+  // Drains the offline sync queue on foreground and on a slow heartbeat.
+  useSyncTriggers();
 
   // Boot order matters: settings must be hydrated before the steps store
   // reads the goal and stride, and the database must exist before either.

@@ -1,9 +1,15 @@
 -- Pulse server schema.
 --
--- Sync model: every syncable row carries a client-generated UUID primary key,
--- an owning user_id, an `updated_at` epoch-ms stamp and a `deleted` tombstone
--- flag. Conflict resolution is last-write-wins on `updated_at`, which lets the
+-- Sync model: every syncable row carries a client-generated id, an owning
+-- user_id, an `updated_at` epoch-ms stamp and a `deleted` tombstone flag.
+-- Conflict resolution is last-write-wins on `updated_at`, which lets the
 -- device stay the source of truth while still allowing multi-device merges.
+--
+-- Primary keys are (user_id, id), NOT id alone. Client ids are only unique
+-- within a device's own database — `daily_steps` in particular uses the
+-- deterministic id `day:YYYY-MM-DD` — so a bare `id` primary key would make
+-- two users collide on the same key, and the second writer's upsert would
+-- silently no-op against the first writer's row.
 
 PRAGMA journal_mode = WAL;
 PRAGMA foreign_keys = ON;
@@ -19,7 +25,7 @@ CREATE TABLE IF NOT EXISTS users (
 );
 
 CREATE TABLE IF NOT EXISTS walking_sessions (
-  id            TEXT PRIMARY KEY,
+  id            TEXT    NOT NULL,
   user_id       TEXT    NOT NULL REFERENCES users(id) ON DELETE CASCADE,
   started_at    INTEGER NOT NULL,          -- epoch ms
   ended_at      INTEGER,                   -- epoch ms, null while in flight
@@ -31,14 +37,15 @@ CREATE TABLE IF NOT EXISTS walking_sessions (
   avg_pace      REAL    NOT NULL DEFAULT 0, -- steps per minute
   note          TEXT,
   deleted       INTEGER NOT NULL DEFAULT 0,
-  updated_at    INTEGER NOT NULL
+  updated_at    INTEGER NOT NULL,
+  PRIMARY KEY (user_id, id)
 );
 
 CREATE INDEX IF NOT EXISTS idx_walking_user_day  ON walking_sessions(user_id, day);
 CREATE INDEX IF NOT EXISTS idx_walking_user_upd  ON walking_sessions(user_id, updated_at);
 
 CREATE TABLE IF NOT EXISTS daily_steps (
-  id            TEXT PRIMARY KEY,          -- `${user_id}:${day}`
+  id            TEXT    NOT NULL,          -- `day:YYYY-MM-DD`, unique per user only
   user_id       TEXT    NOT NULL REFERENCES users(id) ON DELETE CASCADE,
   day           TEXT    NOT NULL,
   steps         INTEGER NOT NULL DEFAULT 0,
@@ -48,13 +55,14 @@ CREATE TABLE IF NOT EXISTS daily_steps (
   goal          INTEGER NOT NULL DEFAULT 10000,
   deleted       INTEGER NOT NULL DEFAULT 0,
   updated_at    INTEGER NOT NULL,
+  PRIMARY KEY (user_id, id),
   UNIQUE (user_id, day)
 );
 
 CREATE INDEX IF NOT EXISTS idx_daily_user_upd ON daily_steps(user_id, updated_at);
 
 CREATE TABLE IF NOT EXISTS practice_activities (
-  id             TEXT PRIMARY KEY,
+  id             TEXT    NOT NULL,
   user_id        TEXT    NOT NULL REFERENCES users(id) ON DELETE CASCADE,
   name           TEXT    NOT NULL,
   icon           TEXT    NOT NULL DEFAULT 'sparkles',
@@ -64,13 +72,14 @@ CREATE TABLE IF NOT EXISTS practice_activities (
   archived       INTEGER NOT NULL DEFAULT 0,
   created_at     INTEGER NOT NULL,
   deleted        INTEGER NOT NULL DEFAULT 0,
-  updated_at     INTEGER NOT NULL
+  updated_at     INTEGER NOT NULL,
+  PRIMARY KEY (user_id, id)
 );
 
 CREATE INDEX IF NOT EXISTS idx_activity_user_upd ON practice_activities(user_id, updated_at);
 
 CREATE TABLE IF NOT EXISTS practice_sessions (
-  id           TEXT PRIMARY KEY,
+  id           TEXT    NOT NULL,
   user_id      TEXT    NOT NULL REFERENCES users(id) ON DELETE CASCADE,
   activity_id  TEXT    NOT NULL,
   day          TEXT    NOT NULL,
@@ -80,7 +89,8 @@ CREATE TABLE IF NOT EXISTS practice_sessions (
   source       TEXT    NOT NULL DEFAULT 'timer', -- 'timer' | 'manual'
   note         TEXT,
   deleted      INTEGER NOT NULL DEFAULT 0,
-  updated_at   INTEGER NOT NULL
+  updated_at   INTEGER NOT NULL,
+  PRIMARY KEY (user_id, id)
 );
 
 CREATE INDEX IF NOT EXISTS idx_practice_user_day ON practice_sessions(user_id, day);
