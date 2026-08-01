@@ -66,16 +66,60 @@ jobs:
           key: gradle-${{ runner.os }}-${{ hashFiles('pulse/app/android/**/*.gradle*', 'pulse/app/android/gradle/wrapper/gradle-wrapper.properties') }}
           restore-keys: gradle-${{ runner.os }}-
 
+      # The first run failed here: the Gradle wrapper gave up downloading its
+      # distribution after its default 10s connect timeout. This reports
+      # whether the host is actually reachable (just slow) or blocked outright,
+      # and what Gradle the runner already has, so the fallback below is chosen
+      # on evidence rather than guesswork.
+      - name: Diagnose Gradle availability
+        continue-on-error: true
+        run: |
+          echo "--- preinstalled gradle ---"
+          which gradle && gradle --version 2>&1 | head -6 || echo "no preinstalled gradle"
+          echo "--- services.gradle.org reachability (60s budget) ---"
+          curl -sS -o /dev/null -L --max-time 60 \
+            -w 'http=%{http_code} connect=%{time_connect}s total=%{time_total}s size=%{size_download}\n' \
+            -r 0-100000 \
+            https://services.gradle.org/distributions/gradle-9.3.1-bin.zip \
+            || echo "services.gradle.org UNREACHABLE"
+          echo "--- cached wrapper dists ---"
+          ls -la ~/.gradle/wrapper/dists 2>/dev/null || echo "none cached"
+
+      # Raise the wrapper's network timeout from its 10s default. android/ is
+      # regenerated each run, so this has to be patched after prebuild.
+      - name: Extend Gradle wrapper network timeout
+        working-directory: pulse/app/android/gradle/wrapper
+        run: |
+          grep -q '^networkTimeout=' gradle-wrapper.properties \
+            && sed -i 's/^networkTimeout=.*/networkTimeout=120000/' gradle-wrapper.properties \
+            || echo 'networkTimeout=120000' >> gradle-wrapper.properties
+          cat gradle-wrapper.properties
+
       # Release builds are signed with the debug keystore Expo generates, which
       # is enough to sideload. It is NOT suitable for Play Store distribution —
       # that needs a real upload key.
+      # Tries the wrapper first (correct version by definition). If it still
+      # cannot fetch its distribution, falls back to the Gradle preinstalled on
+      # the runner rather than failing the whole build on a network problem.
       - name: Build release APK
         working-directory: pulse/app/android
         run: |
+          set -o pipefail
           chmod +x ./gradlew
-          ./gradlew assembleRelease \
-            --no-daemon \
-            -PreactNativeArchitectures=arm64-v8a,armeabi-v7a
+
+          ARGS="assembleRelease --no-daemon --stacktrace -PreactNativeArchitectures=arm64-v8a,armeabi-v7a"
+
+          if ./gradlew $ARGS 2>&1 | tail -80; then
+            echo "Built via Gradle wrapper."
+            exit 0
+          fi
+
+          echo "::warning::Gradle wrapper failed; retrying with the runner's preinstalled Gradle."
+          if ! command -v gradle >/dev/null; then
+            echo "::error::No preinstalled Gradle to fall back to."
+            exit 1
+          fi
+          gradle $ARGS 2>&1 | tail -80
 
       - name: Report APK size
         working-directory: pulse/app/android
